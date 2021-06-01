@@ -1,0 +1,1 @@
+# verika_architecture_diagrams
