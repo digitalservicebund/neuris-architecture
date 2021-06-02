@@ -1,0 +1,47 @@
+workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
+
+    model {
+        user = person "Dokumentar" "Nutzer der Fachanwendung"
+        ris = softwareSystem "RIS" "Dokumentationsumgebung Datenhaltung" {
+
+        }
+        rip = softwareSystem "RIP" "Datenverwerter" "Existing System"
+        bverfg = softwareSystem "BVerfG" "Datenlieferant" "Existing System"
+        juris = softwareSystem "juris" "Datenverwerter" "Existing System"
+
+        user -> ris "Arbeitet in"
+        ris -> rip "Stellt Daten bereit für"
+        ris -> juris "Stellt Daten bereit für"
+        bverfg -> ris "Stellt Daten bereit für"
+    }
+
+    views {
+        systemContext ris "Systemkontext" "Rechtsinformationssystem" {
+            include *
+            autoLayout
+        }
+
+        styles {
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+            element "Existing System" {
+                background #999999
+                color #ffffff
+            }
+            element "Web Browser" {
+                shape WebBrowser
+            }
+            element "Database" {
+                shape Cylinder
+            }
+        }
+    }
+    
+}
