@@ -12,7 +12,15 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         ris = softwareSystem "RIS" "Dokumentationsumgebung Datenhaltung" {
             singlePageApplication = container "Single-Page-Webanwendung" "Webapplikation Dokumentationsumgebung" "TypeScript, React" "Web Browser"
             backend = container "Backend/API" "Stellt Funktionalität via JSON/HTTPS API bereit." "Java, Spring MVC"
-            antiCorruptionLayer = container "Datenübernahmeservice" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (= ACL)" "Java, Spring MVC"
+            antiCorruptionLayer = container "Datenübernahmeservice" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (= ACL)" "Java, Spring MVC" {
+                emailComponent = component "E-mail Komponente" "Liest Emails aus Funktionspostfach" "Spring Bean"
+                ftpComponent = component "FTP Komponente" "Lädt Daten von FTP Speicherort" "Spring Bean"
+                webCrawlerComponent = component "Webcrawler Komponente" "Extrahiert Daten von Webseiten" "Spring Bean"
+                documentPublisher = component "Dokeinheit-Publisher" "Schreibt vereinheitlichte Dokeinheiten-Daten in Queue" "Spring Bean"
+                jobSubscriber = component "Job-Subscriber" "Liest Jobs von Queue und veranlasst paralelle Verarbeitung" "Spring Bean"
+                scheduler = component "Scheduler" "Erzeugt periodisch Jobs" "Spring Bean"
+                documentConverter = component "Dokumentenkonverter" "Konvertiert eingehende Datensätze in Dokumentationseinheiten" "Spring Bean"
+            }
             documentMessageQueue = container "Dokeinheiten Queue" "Vorhaltung von eingehenden Dokumentationseinheiten für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
             jobMessageQueue = container "Job Queue" "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
             iam = container "IAM" "Single-Sign On mittels OAuth2 + JWT" "Java, Keycloak"
@@ -32,11 +40,21 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         backend -> rip "Stellt Daten bereit für"
         backend -> juris "Stellt Daten bereit für"
         backend -> database "Liest von und schreibt nach" "JDBC"
-        antiCorruptionLayer -> jobMessageQueue "Liest von" "AMQP"
-        antiCorruptionLayer -> documentMessageQueue "Schreibt nach" "AMQP"
-        antiCorruptionLayer -> email "Liest von" "IMAP"
-        antiCorruptionLayer -> ftp "Liest von" "SFTP"
         bverfg -> backend "Stellt Daten bereit für"
+
+        # Relationships to/from components
+        jobSubscriber -> jobMessageQueue "Liest von" "AMQP"
+        jobSubscriber -> emailComponent "Verwendet"
+        jobSubscriber -> ftpComponent "Verwendet"
+        jobSubscriber -> webCrawlerComponent "Verwendet"
+        scheduler -> jobMessageQueue "Schreibt nach"
+        documentPublisher -> documentMessageQueue "Schreibt nach" "AMQP"
+        documentConverter -> documentPublisher "Verwendet"
+        emailComponent -> documentConverter "Verwendet"
+        emailComponent -> email "Liest von" "IMAP"
+        ftpComponent -> ftp "Liest von" "SFTP"
+        ftpComponent -> documentConverter "Verwendet"
+        webCrawlerComponent -> documentConverter "Verwendet"
     }
 
     views {
@@ -48,6 +66,11 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         }
 
         container ris "Containers" {
+            include *
+            autoLayout
+        }
+
+        component antiCorruptionLayer "Components" {
             include *
             autoLayout
         }
@@ -78,6 +101,10 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
             }
             element "Message Queue" {
                 shape Pipe
+            }
+            element "Component" {
+                background #85bbf0
+                color #000000
             }
         }
     }
