@@ -9,10 +9,12 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
 
         ris = softwareSystem "RIS" "Dokumentationsumgebung Datenhaltung" {
             singlePageApplication = container "Single-Page-Webanwendung" "Webapplikation Dokumentationsumgebung" "TypeScript, React" "Web Browser"
-            backend = container "Backend" "Stellt Funktionalität via JSON/HTTPS API bereit." "Java, Spring MVC"
-            messageQueue = container "Message Queue" "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
+            backend = container "Backend/API" "Stellt Funktionalität via JSON/HTTPS API bereit." "Java, Spring MVC"
+            antiCorruptionLayer = container "Datenübernahmeservice" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (= ACL)" "Java, Spring MVC"
+            documentMessageQueue = container "Dokeinheiten Queue" "Vorhaltung von eingehenden Dokumentationseinheiten für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
+            jobMessageQueue = container "Job Queue" "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
+            iam = container "IAM" "Single-Sign On mittels OAuth2 + JWT" "Java, Keycloak"
             database = container "Datenbank" "Datenhaltung" "PostgreSQL" "Database"
-            iam = container "Authentifizierung" "Single-Sign On mittels OAuth2 + JWT" "Java, Keycloak"
         }
 
         # Relationships between people and software systems
@@ -23,10 +25,13 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         user -> singlePageApplication "Sieht Aufgabenliste in" "HTTPS"
         singlePageApplication -> backend "Ruft API auf" "JSON/HTTPS"
         backend -> singlePageApplication "Liefert an Browser des Nutzers aus" "HTTPS"
-        backend -> messageQueue "Liest von und schreibt nach" "AMQP"
+        backend -> documentMessageQueue "Liest von" "AMQP"
+        backend -> jobMessageQueue "Schreibt nach" "AMQP"
         backend -> rip "Stellt Daten bereit für"
         backend -> juris "Stellt Daten bereit für"
         backend -> database "Liest von und schreibt nach" "JDBC"
+        antiCorruptionLayer -> jobMessageQueue "Liest von" "AMQP"
+        antiCorruptionLayer -> documentMessageQueue "Schreibt nach" "AMQP"
         bverfg -> backend "Stellt Daten bereit für"
     }
 
