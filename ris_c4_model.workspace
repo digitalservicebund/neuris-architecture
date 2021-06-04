@@ -6,6 +6,8 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         rip = softwareSystem "RIP" "Datenverwerter" "Existing System"
         bverfg = softwareSystem "BVerfG" "Datenlieferant" "Existing System"
         juris = softwareSystem "juris" "Datenverwerter" "Existing System"
+        email = softwareSystem "Email" "Funktionspostfach" "Existing System"
+        ftp = softwareSystem "Push-Dienst" "Speicherort" "Existing System"
 
         ris = softwareSystem "RIS" "Dokumentationsumgebung Datenhaltung" {
             singlePageApplication = container "Single-Page-Webanwendung" "Webapplikation Dokumentationsumgebung" "TypeScript, React" "Web Browser"
@@ -32,12 +34,16 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         backend -> database "Liest von und schreibt nach" "JDBC"
         antiCorruptionLayer -> jobMessageQueue "Liest von" "AMQP"
         antiCorruptionLayer -> documentMessageQueue "Schreibt nach" "AMQP"
+        antiCorruptionLayer -> email "Liest von" "IMAP"
+        antiCorruptionLayer -> ftp "Liest von" "SFTP"
         bverfg -> backend "Stellt Daten bereit für"
     }
 
     views {
         systemContext ris "SystemContext" "Rechtsinformationssystem" {
             include *
+            exclude ftp
+            exclude email
             autoLayout
         }
 
