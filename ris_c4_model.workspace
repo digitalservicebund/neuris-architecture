@@ -52,7 +52,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         documentConverter -> documentPublisher "Verwendet"
         emailComponent -> documentConverter "Verwendet"
         emailComponent -> email "Liest von" "IMAP"
-        ftpComponent -> ftp "Liest von" "SFTP"
+        ftpComponent -> ftp "Liest von" "FTPS"
         ftpComponent -> documentConverter "Verwendet"
         webCrawlerComponent -> documentConverter "Verwendet"
     }
