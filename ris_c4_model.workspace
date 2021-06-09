@@ -16,15 +16,22 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
                 emailComponent = component "E-mail Komponente" "Liest Emails aus Funktionspostfach" "Spring Bean"
                 ftpComponent = component "FTP Komponente" "Lädt Daten von FTP Speicherort" "Spring Bean"
                 webCrawlerComponent = component "Webcrawler Komponente" "Extrahiert Daten von Webseiten" "Spring Bean"
+                webServiceComponent = component "Webservice Komponente" "Funktionalität für die Abfrage von Webservices" "Package"
+                webClient = component "Webclient" "Generischer HTTP-Client" "Spring Bean"
+                rssReaderComponent = component "RSS Komponente" "Empfängt Aktualisierungen von RSS-Diensten zur weiteren Verarbeitung" "Spring Bean"
                 documentPublisher = component "Dokeinheit-Publisher" "Schreibt vereinheitlichte Dokeinheiten-Daten in Queue" "Spring Bean"
-                jobSubscriber = component "Job-Subscriber" "Liest Jobs von Queue und veranlasst paralelle Verarbeitung" "Spring Bean"
+                jobSubscriber = component "Job-Subscriber" "Empfängt Importaufträge von Queue" "Spring Bean"
+                jobManager = component "Jobverwaltung" "Delegation hereinkommender Importaufträge" "Spring Bean"
                 scheduler = component "Scheduler" "Erzeugt periodisch Jobs" "Spring Bean"
                 documentConverter = component "Dokumentenkonverter" "Konvertiert eingehende Datensätze in Dokumentationseinheiten" "Spring Bean"
+                converterSchemaRepository = component "Konvertierungsschemata Repository" "Stellt Konvertierungsschemata aus Konfigurationsdatenbank bereit" "Spring Bean"
+                rulesRepository = component "Verarbeitungsregelwerke Repository" "Stellt Verarbeitungsregelwerke aus Konfigurationsdatenbank bereit" "Spring Bean"
             }
             documentMessageQueue = container "Dokeinheiten Queue" "Vorhaltung von eingehenden Dokumentationseinheiten für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
             jobMessageQueue = container "Job Queue" "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
             iam = container "IAM" "Single-Sign On mittels OAuth2 + JWT" "Java, Keycloak"
             database = container "Datenbank" "Datenhaltung" "PostgreSQL" "Database"
+            configuration = container "Konfiguration" "Speichert Schnittstellenkonfigurationen (Verarbeitungsregeln, Konvertierungsschemata)" "PostgreSQL" "Database"
         }
 
         # Relationships between people and software systems
@@ -44,17 +51,24 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
 
         # Relationships to/from components
         jobSubscriber -> jobMessageQueue "Liest von" "AMQP"
-        jobSubscriber -> emailComponent "Verwendet"
-        jobSubscriber -> ftpComponent "Verwendet"
-        jobSubscriber -> webCrawlerComponent "Verwendet"
+        jobSubscriber -> jobManager "Verwendet"
+        jobManager -> emailComponent "Verwendet"
+        jobManager -> ftpComponent "Verwendet"
+        jobManager -> webCrawlerComponent "Verwendet"
+        jobManager -> webServiceComponent "Verwendet"
+        jobManager -> rssReaderComponent "Verwendet"
+        jobManager -> documentConverter "Verwendet"
+        jobManager -> converterSchemaRepository "Verwendet"
+        jobManager -> rulesRepository "Verwendet"
         scheduler -> jobMessageQueue "Schreibt nach"
-        documentPublisher -> documentMessageQueue "Schreibt nach" "AMQP"
-        documentConverter -> documentPublisher "Verwendet"
-        emailComponent -> documentConverter "Verwendet"
         emailComponent -> email "Liest von" "IMAP"
         ftpComponent -> ftp "Liest von" "FTPS"
-        ftpComponent -> documentConverter "Verwendet"
-        webCrawlerComponent -> documentConverter "Verwendet"
+        webCrawlerComponent -> webClient "Verwendet"
+        webServiceComponent -> webClient "Verwendet"
+        converterSchemaRepository -> configuration "Liest von"
+        rulesRepository -> configuration "Liest von"
+        documentPublisher -> documentMessageQueue "Schreibt nach" "AMQP"
+        documentConverter -> documentPublisher "Verwendet"
     }
 
     views {
@@ -72,7 +86,6 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
 
         component antiCorruptionLayer "Components" {
             include *
-            autoLayout
         }
 
         styles {
