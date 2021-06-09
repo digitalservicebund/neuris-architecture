@@ -116,6 +116,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
                 shape Pipe
             }
             element "Component" {
+                shape Component
                 background #85bbf0
                 color #000000
             }
