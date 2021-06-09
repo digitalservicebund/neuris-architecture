@@ -81,7 +81,6 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
 
         container ris "Containers" {
             include *
-            autoLayout
         }
 
         component antiCorruptionLayer "Components" {
