@@ -7,12 +7,12 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         bverfg = softwareSystem "BVerfG" "Datenlieferant" "Existing System"
         juris = softwareSystem "juris" "Datenverwerter" "Existing System"
         email = softwareSystem "Email" "Funktionspostfach" "Existing System"
-        ftp = softwareSystem "Push-Dienst" "Speicherort" "Existing System"
+        ftp = softwareSystem "FTP Server" "Speicherort für Push-Dienst" "Existing System"
 
         ris = softwareSystem "RIS" "Dokumentationsumgebung Datenhaltung" {
             singlePageApplication = container "Single-Page-Webanwendung" "Webapplikation Dokumentationsumgebung" "TypeScript, React" "Web Browser"
-            backend = container "Backend/API" "Stellt Funktionalität via JSON/HTTPS API bereit." "Java, Spring MVC"
-            antiCorruptionLayer = container "Datenübernahmeservice" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (= ACL)" "Java, Spring MVC" {
+            backend = container "Backend/API" "Stellt Funktionalität via JSON/XML/HTTPS API bereit." "Java, Spring MVC"
+            antiCorruptionLayer = container "Importer" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (Anti-Corruption Layer)" "Java, Spring MVC" {
                 emailComponent = component "E-mail Komponente" "Liest Emails aus Funktionspostfach" "Spring Bean"
                 ftpComponent = component "FTP Komponente" "Lädt Daten von FTP Speicherort" "Spring Bean"
                 webCrawlerComponent = component "Webcrawler Komponente" "Extrahiert Daten von Webseiten" "Spring Bean"
@@ -31,7 +31,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
             documentMessageQueue = container "Dokeinheiten Queue" "Vorhaltung von eingehenden Dokumentationseinheiten für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
             jobMessageQueue = container "Job Queue" "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung" "RabbitMQ" "Message Queue"
             iam = container "IAM" "Single-Sign On mittels OAuth2 + JWT" "Java, Keycloak"
-            database = container "Datenbank" "Datenhaltung" "PostgreSQL" "Database"
+            database = container "Datenbank" "Datenhaltung für Dokumentationseinheiten" "PostgreSQL" "Database"
             configuration = container "Konfiguration" "Speichert Schnittstellenkonfigurationen (Verarbeitungsregeln, Konvertierungsschemata)" "PostgreSQL" "Database"
         }
 
