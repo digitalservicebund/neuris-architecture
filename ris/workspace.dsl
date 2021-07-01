@@ -8,10 +8,22 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         juris = softwareSystem "juris" "Datenverwerter" "Existing System"
         email = softwareSystem "Email" "Funktionspostfach" "Existing System"
         ftp = softwareSystem "FTP Server" "Speicherort für Push-Dienst" "Existing System"
+        consumer = softwareSystem "Datenverwerter" "Allgemeine Schnittstelle (DES)" "Existing System"
 
         ris = softwareSystem "RIS" "Dokumentationsumgebung Datenhaltung" {
             singlePageApplication = container "Single-Page-Webanwendung" "Webapplikation Dokumentationsumgebung" "TypeScript, React" "Web Browser"
-            backend = container "Backend/API" "Stellt Funktionalität via JSON/XML/HTTPS API bereit." "Java, Spring MVC"
+            backend = container "Backend/API" "Stellt Funktionalität via JSON/XML/HTTPS API bereit." "Java, Spring MVC" {
+                documentSubscriber = component "Dokeinheiten-Subscriber" "Empfängt Dokeinheiten von Queue" "Spring Bean"
+                documentRepository = component "Dokeinheiten Repository" "Hält Dokeinheiten aus Datenhaltung vor" "Spring Bean"
+                apiConfigRepository = component "Schnittstellenkonfiguration" "Hält Exportprofile aus Konfiguration vor" "Spring Bean"
+                apiController = component "API Controller" "Stellt Schnittstellen als Webservice bereit" "Spring Bean"
+                downloadController = component "Downloads Controller" "Stellt Daten als Download bereit" "Spring Bean"
+                exportComponent = component "Exporter Komponente" "Bewerkstelligt Datenexport gemäss Schnittstellenkonfiguration (Filter)" "Spring Bean"
+                dslInterpreter = component "DSL Interpreter" "Übersetzt Abfrage-DSL in tatsächliche Abfrage" "Spring Bean"
+                xmlRenderer = component "XML Renderer" "Wandelt Dokeinheit in XML (DES) Repräsentation um" "Spring Bean"
+                csvRenderer = component "CSV Renderer" "Wandelt Dokeinheit in CSV Repräsentation um" "Spring Bean"
+                legalDocMlRenderer = component "LegalDocML Renderer" "Wandelt Dokeinheit in LegalDocML.de Repräsentation um" "Spring Bean"
+            }
             antiCorruptionLayer = container "Importer" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (Anti-Corruption Layer)" "Java, Spring MVC" {
                 emailComponent = component "E-mail Komponente" "Liest Emails aus Funktionspostfach" "Spring Bean"
                 ftpComponent = component "FTP Komponente" "Lädt Daten von FTP Speicherort" "Spring Bean"
@@ -43,14 +55,29 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         user -> singlePageApplication "Sieht Aufgabenliste in" "HTTPS"
         singlePageApplication -> backend "Ruft API auf" "JSON/HTTPS"
         backend -> singlePageApplication "Liefert an Browser des Nutzers aus" "HTTPS"
-        backend -> documentMessageQueue "Liest von" "AMQP"
         backend -> jobMessageQueue "Schreibt nach" "AMQP"
         backend -> rip "Stellt Daten bereit für"
         backend -> juris "Stellt Daten bereit für"
-        backend -> database "Liest von und schreibt nach" "JDBC"
         bverfg -> backend "Stellt Daten bereit für"
 
         # Relationships to/from components
+        # Backend
+        documentRepository -> database "Liest von und schreibt nach" "JDBC"
+        apiConfigRepository -> database "Liest von" "JDBC"
+        documentSubscriber -> documentMessageQueue "Liest von" "AMQP"
+        documentSubscriber -> documentRepository "Verwendet"
+        apiController -> exportComponent "Verwendet"
+        apiController -> xmlRenderer "Verwendet"
+        apiController -> consumer "Stellt Daten bereit für"
+        downloadController -> exportComponent "Verwendet"
+        downloadController -> xmlRenderer "Verwendet"
+        downloadController -> csvRenderer "Verwendet"
+        downloadController -> legalDocMlRenderer "Verwendet"
+        exportComponent -> documentRepository "Verwendet"
+        exportComponent -> apiConfigRepository "Verwendet"
+        exportComponent -> dslInterpreter "Verwendet"
+        user -> downloadController "Fragt manuellen Export an"
+        # Importer
         jobSubscriber -> jobMessageQueue "Liest von" "AMQP"
         jobSubscriber -> jobManager "Verwendet"
         jobManager -> emailComponent "Verwendet"
@@ -85,7 +112,11 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
             include *
         }
 
-        component antiCorruptionLayer "Components" {
+        component antiCorruptionLayer "AclComponents" {
+            include *
+        }
+
+        component backend "BackendComponents" {
             include *
         }
 
