@@ -1,0 +1,813 @@
+{
+  "id" : 1,
+  "name" : "VeRIKA",
+  "description" : "Verwirklichung Rechtsinformationssystem",
+  "revision" : 0,
+  "lastModifiedDate" : "2021-07-01T13:24:53Z",
+  "lastModifiedAgent" : "structurizr-web/2439",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJWZVJJS0EiICJWZXJ3aXJrbGljaHVuZyBSZWNodHNpbmZvcm1hdGlvbnNzeXN0ZW0iIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiRG9rdW1lbnRhciIgIk51dHplciBkZXIgRmFjaGFud2VuZHVuZyIKICAgICAgICAKICAgICAgICByaXAgPSBzb2Z0d2FyZVN5c3RlbSAiUklQIiAiRGF0ZW52ZXJ3ZXJ0ZXIiICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgYnZlcmZnID0gc29mdHdhcmVTeXN0ZW0gIkJWZXJmRyIgIkRhdGVubGllZmVyYW50IiAiRXhpc3RpbmcgU3lzdGVtIgogICAgICAgIGp1cmlzID0gc29mdHdhcmVTeXN0ZW0gImp1cmlzIiAiRGF0ZW52ZXJ3ZXJ0ZXIiICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgZW1haWwgPSBzb2Z0d2FyZVN5c3RlbSAiRW1haWwiICJGdW5rdGlvbnNwb3N0ZmFjaCIgIkV4aXN0aW5nIFN5c3RlbSIKICAgICAgICBmdHAgPSBzb2Z0d2FyZVN5c3RlbSAiRlRQIFNlcnZlciIgIlNwZWljaGVyb3J0IGbDvHIgUHVzaC1EaWVuc3QiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHJpcyA9IHNvZnR3YXJlU3lzdGVtICJSSVMiICJEb2t1bWVudGF0aW9uc3VtZ2VidW5nIERhdGVuaGFsdHVuZyIgewogICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNpbmdsZS1QYWdlLVdlYmFud2VuZHVuZyIgIldlYmFwcGxpa2F0aW9uIERva3VtZW50YXRpb25zdW1nZWJ1bmciICJUeXBlU2NyaXB0LCBSZWFjdCIgIldlYiBCcm93c2VyIgogICAgICAgICAgICBiYWNrZW5kID0gY29udGFpbmVyICJCYWNrZW5kL0FQSSIgIlN0ZWxsdCBGdW5rdGlvbmFsaXTDpHQgdmlhIEpTT04vWE1ML0hUVFBTIEFQSSBiZXJlaXQuIiAiSmF2YSwgU3ByaW5nIE1WQyIKICAgICAgICAgICAgYW50aUNvcnJ1cHRpb25MYXllciA9IGNvbnRhaW5lciAiSW1wb3J0ZXIiICJJbXBvcnQgdm9uIEZyZW1kZGF0ZW4gdW5kIMOcYmVyc2V0enVuZyBpbiBEb2t1bWVudGF0aW9uc2VpbmhlaXRlbiAoQW50aS1Db3JydXB0aW9uIExheWVyKSIgIkphdmEsIFNwcmluZyBNVkMiIHsKICAgICAgICAgICAgICAgIGVtYWlsQ29tcG9uZW50ID0gY29tcG9uZW50ICJFLW1haWwgS29tcG9uZW50ZSIgIkxpZXN0IEVtYWlscyBhdXMgRnVua3Rpb25zcG9zdGZhY2giICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIGZ0cENvbXBvbmVudCA9IGNvbXBvbmVudCAiRlRQIEtvbXBvbmVudGUiICJMw6RkdCBEYXRlbiB2b24gRlRQIFNwZWljaGVyb3J0IiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICB3ZWJDcmF3bGVyQ29tcG9uZW50ID0gY29tcG9uZW50ICJXZWJjcmF3bGVyIEtvbXBvbmVudGUiICJFeHRyYWhpZXJ0IERhdGVuIHZvbiBXZWJzZWl0ZW4iICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHdlYlNlcnZpY2VDb21wb25lbnQgPSBjb21wb25lbnQgIldlYnNlcnZpY2UgS29tcG9uZW50ZSIgIkZ1bmt0aW9uYWxpdMOkdCBmw7xyIGRpZSBBYmZyYWdlIHZvbiBXZWJzZXJ2aWNlcyAoUkVTVCwgU1BBUlFMKSIgIlBhY2thZ2UiCiAgICAgICAgICAgICAgICB3ZWJDbGllbnQgPSBjb21wb25lbnQgIldlYmNsaWVudCIgIkdlbmVyaXNjaGVyIEhUVFAtQ2xpZW50IiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBzcGFycWxDbGllbnQgPSBjb21wb25lbnQgIlNQQVJRTCBDbGllbnQiICJHZW5lcmlzY2hlciBTUEFSUUwtQ2xpZW50IiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICByc3NSZWFkZXJDb21wb25lbnQgPSBjb21wb25lbnQgIlJTUyBLb21wb25lbnRlIiAiRW1wZsOkbmd0IEFrdHVhbGlzaWVydW5nZW4gdm9uIFJTUy1EaWVuc3RlbiB6dXIgd2VpdGVyZW4gVmVyYXJiZWl0dW5nIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBkb2N1bWVudFB1Ymxpc2hlciA9IGNvbXBvbmVudCAiRG9rZWluaGVpdC1QdWJsaXNoZXIiICJTY2hyZWlidCB2ZXJlaW5oZWl0bGljaHRlIERva2VpbmhlaXRlbi1EYXRlbiBpbiBRdWV1ZSIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgam9iU3Vic2NyaWJlciA9IGNvbXBvbmVudCAiSm9iLVN1YnNjcmliZXIiICJFbXBmw6RuZ3QgSW1wb3J0YXVmdHLDpGdlIHZvbiBRdWV1ZSIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgam9iTWFuYWdlciA9IGNvbXBvbmVudCAiSm9idmVyd2FsdHVuZyIgIkRlbGVnYXRpb24gaGVyZWlua29tbWVuZGVyIEltcG9ydGF1ZnRyw6RnZSIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgc2NoZWR1bGVyID0gY29tcG9uZW50ICJTY2hlZHVsZXIiICJFcnpldWd0IHBlcmlvZGlzY2ggSm9icyIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgZG9jdW1lbnRDb252ZXJ0ZXIgPSBjb21wb25lbnQgIkRva3VtZW50ZW5rb252ZXJ0ZXIiICJLb252ZXJ0aWVydCBlaW5nZWhlbmRlIERhdGVuc8OkdHplIGluIERva3VtZW50YXRpb25zZWluaGVpdGVuIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBjb252ZXJ0ZXJTY2hlbWFSZXBvc2l0b3J5ID0gY29tcG9uZW50ICJLb252ZXJ0aWVydW5nc3NjaGVtYXRhIFJlcG9zaXRvcnkiICJTdGVsbHQgS29udmVydGllcnVuZ3NzY2hlbWF0YSBhdXMgS29uZmlndXJhdGlvbnNkYXRlbmJhbmsgYmVyZWl0IiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBydWxlc1JlcG9zaXRvcnkgPSBjb21wb25lbnQgIlZlcmFyYmVpdHVuZ3NyZWdlbHdlcmtlIFJlcG9zaXRvcnkiICJTdGVsbHQgVmVyYXJiZWl0dW5nc3JlZ2Vsd2Vya2UgYXVzIEtvbmZpZ3VyYXRpb25zZGF0ZW5iYW5rIGJlcmVpdCIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGRvY3VtZW50TWVzc2FnZVF1ZXVlID0gY29udGFpbmVyICJEb2tlaW5oZWl0ZW4gUXVldWUiICJWb3JoYWx0dW5nIHZvbiBlaW5nZWhlbmRlbiBEb2t1bWVudGF0aW9uc2VpbmhlaXRlbiBmw7xyIGFzeW5jaHJvbmUgVmVyYXJiZWl0dW5nIiAiUmFiYml0TVEiICJNZXNzYWdlIFF1ZXVlIgogICAgICAgICAgICBqb2JNZXNzYWdlUXVldWUgPSBjb250YWluZXIgIkpvYiBRdWV1ZSIgIlZvcmhhbHR1bmcgdm9uIERhdGVuw7xiZXJuYWhtZWpvYnMgZsO8ciBhc3luY2hyb25lIFZlcmFyYmVpdHVuZyIgIlJhYmJpdE1RIiAiTWVzc2FnZSBRdWV1ZSIKICAgICAgICAgICAgaWFtID0gY29udGFpbmVyICJJQU0iICJTaW5nbGUtU2lnbiBPbiBtaXR0ZWxzIE9BdXRoMiArIEpXVCIgIkphdmEsIEtleWNsb2FrIgogICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0ZW5iYW5rIiAiRGF0ZW5oYWx0dW5nIGbDvHIgRG9rdW1lbnRhdGlvbnNlaW5oZWl0ZW4iICJQb3N0Z3JlU1FMIiAiRGF0YWJhc2UiCiAgICAgICAgICAgIGNvbmZpZ3VyYXRpb24gPSBjb250YWluZXIgIktvbmZpZ3VyYXRpb24iICJTcGVpY2hlcnQgU2Nobml0dHN0ZWxsZW5rb25maWd1cmF0aW9uZW4gKFZlcmFyYmVpdHVuZ3NyZWdlbG4sIEtvbnZlcnRpZXJ1bmdzc2NoZW1hdGEpIiAiUG9zdGdyZVNRTCIgIkRhdGFiYXNlIgogICAgICAgIH0KCiAgICAgICAgIyBSZWxhdGlvbnNoaXBzIGJldHdlZW4gcGVvcGxlIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgdXNlciAtPiByaXMgIkFyYmVpdGV0IGluIgoKICAgICAgICAjIFJlbGF0aW9uc2hpcHMgdG8vZnJvbSBjb250YWluZXJzCiAgICAgICAgdXNlciAtPiBpYW0gIkxvZ2d0IHNpY2ggZWluIiAiSFRUUFMiCiAgICAgICAgdXNlciAtPiBzaW5nbGVQYWdlQXBwbGljYXRpb24gIlNpZWh0IEF1ZmdhYmVubGlzdGUgaW4iICJIVFRQUyIKICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gYmFja2VuZCAiUnVmdCBBUEkgYXVmIiAiSlNPTi9IVFRQUyIKICAgICAgICBiYWNrZW5kIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiTGllZmVydCBhbiBCcm93c2VyIGRlcyBOdXR6ZXJzIGF1cyIgIkhUVFBTIgogICAgICAgIGJhY2tlbmQgLT4gZG9jdW1lbnRNZXNzYWdlUXVldWUgIkxpZXN0IHZvbiIgIkFNUVAiCiAgICAgICAgYmFja2VuZCAtPiBqb2JNZXNzYWdlUXVldWUgIlNjaHJlaWJ0IG5hY2giICJBTVFQIgogICAgICAgIGJhY2tlbmQgLT4gcmlwICJTdGVsbHQgRGF0ZW4gYmVyZWl0IGbDvHIiCiAgICAgICAgYmFja2VuZCAtPiBqdXJpcyAiU3RlbGx0IERhdGVuIGJlcmVpdCBmw7xyIgogICAgICAgIGJhY2tlbmQgLT4gZGF0YWJhc2UgIkxpZXN0IHZvbiB1bmQgc2NocmVpYnQgbmFjaCIgIkpEQkMiCiAgICAgICAgYnZlcmZnIC0+IGJhY2tlbmQgIlN0ZWxsdCBEYXRlbiBiZXJlaXQgZsO8ciIKCiAgICAgICAgIyBSZWxhdGlvbnNoaXBzIHRvL2Zyb20gY29tcG9uZW50cwogICAgICAgIGpvYlN1YnNjcmliZXIgLT4gam9iTWVzc2FnZVF1ZXVlICJMaWVzdCB2b24iICJBTVFQIgogICAgICAgIGpvYlN1YnNjcmliZXIgLT4gam9iTWFuYWdlciAiVmVyd2VuZGV0IgogICAgICAgIGpvYk1hbmFnZXIgLT4gZW1haWxDb21wb25lbnQgIlZlcndlbmRldCIKICAgICAgICBqb2JNYW5hZ2VyIC0+IGZ0cENvbXBvbmVudCAiVmVyd2VuZGV0IgogICAgICAgIGpvYk1hbmFnZXIgLT4gd2ViQ3Jhd2xlckNvbXBvbmVudCAiVmVyd2VuZGV0IgogICAgICAgIGpvYk1hbmFnZXIgLT4gd2ViU2VydmljZUNvbXBvbmVudCAiVmVyd2VuZGV0IgogICAgICAgIGpvYk1hbmFnZXIgLT4gcnNzUmVhZGVyQ29tcG9uZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgam9iTWFuYWdlciAtPiBkb2N1bWVudENvbnZlcnRlciAiVmVyd2VuZGV0IgogICAgICAgIGpvYk1hbmFnZXIgLT4gY29udmVydGVyU2NoZW1hUmVwb3NpdG9yeSAiVmVyd2VuZGV0IgogICAgICAgIGpvYk1hbmFnZXIgLT4gcnVsZXNSZXBvc2l0b3J5ICJWZXJ3ZW5kZXQiCiAgICAgICAgc2NoZWR1bGVyIC0+IGpvYk1lc3NhZ2VRdWV1ZSAiU2NocmVpYnQgbmFjaCIKICAgICAgICBlbWFpbENvbXBvbmVudCAtPiBlbWFpbCAiTGllc3Qgdm9uIiAiSU1BUCIKICAgICAgICBmdHBDb21wb25lbnQgLT4gZnRwICJMaWVzdCB2b24iICJGVFBTIgogICAgICAgIHdlYkNyYXdsZXJDb21wb25lbnQgLT4gd2ViQ2xpZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgd2ViU2VydmljZUNvbXBvbmVudCAtPiB3ZWJDbGllbnQgIlZlcndlbmRldCIKICAgICAgICB3ZWJTZXJ2aWNlQ29tcG9uZW50IC0+IHNwYXJxbENsaWVudCAiVmVyd2VuZGV0IgogICAgICAgIGNvbnZlcnRlclNjaGVtYVJlcG9zaXRvcnkgLT4gY29uZmlndXJhdGlvbiAiTGllc3Qgdm9uIgogICAgICAgIHJ1bGVzUmVwb3NpdG9yeSAtPiBjb25maWd1cmF0aW9uICJMaWVzdCB2b24iCiAgICAgICAgZG9jdW1lbnRQdWJsaXNoZXIgLT4gZG9jdW1lbnRNZXNzYWdlUXVldWUgIlNjaHJlaWJ0IG5hY2giICJBTVFQIgogICAgICAgIGRvY3VtZW50Q29udmVydGVyIC0+IGRvY3VtZW50UHVibGlzaGVyICJWZXJ3ZW5kZXQiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgcmlzICJTeXN0ZW1Db250ZXh0IiAiUmVjaHRzaW5mb3JtYXRpb25zc3lzdGVtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBleGNsdWRlIGZ0cAogICAgICAgICAgICBleGNsdWRlIGVtYWlsCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciByaXMgIkNvbnRhaW5lcnMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYW50aUNvcnJ1cHRpb25MYXllciAiQ29tcG9uZW50cyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMTE2OGJkCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24KICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkV4aXN0aW5nIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1lc3NhZ2UgUXVldWUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb21wb25lbnQiIHsKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODViYmYwCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Dokumentar",
+      "description" : "Nutzer der Fachanwendung",
+      "relationships" : [ {
+        "id" : "32",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "8",
+        "description" : "Sieht Aufgabenliste in",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "30",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Arbeitet in"
+      }, {
+        "id" : "31",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "27",
+        "description" : "Loggt sich ein",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "6",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "FTP Server",
+      "description" : "Speicherort für Push-Dienst",
+      "location" : "Unspecified"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "BVerfG",
+      "description" : "Datenlieferant",
+      "relationships" : [ {
+        "id" : "42",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "9",
+        "description" : "Stellt Daten bereit für"
+      }, {
+        "id" : "43",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "7",
+        "description" : "Stellt Daten bereit für"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Email",
+      "description" : "Funktionspostfach",
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "RIP",
+      "description" : "Datenverwerter",
+      "location" : "Unspecified"
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "name" : "RIS",
+      "description" : "Dokumentationsumgebung Datenhaltung",
+      "relationships" : [ {
+        "id" : "40",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "4",
+        "description" : "Stellt Daten bereit für"
+      }, {
+        "id" : "58",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "5",
+        "description" : "Liest von",
+        "technology" : "IMAP"
+      }, {
+        "id" : "38",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "2",
+        "description" : "Stellt Daten bereit für"
+      }, {
+        "id" : "61",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "6",
+        "description" : "Liest von",
+        "technology" : "FTPS"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "27",
+        "tags" : "Element,Container",
+        "name" : "IAM",
+        "description" : "Single-Sign On mittels OAuth2 + JWT",
+        "technology" : "Java, Keycloak"
+      }, {
+        "id" : "29",
+        "tags" : "Element,Container,Database",
+        "name" : "Konfiguration",
+        "description" : "Speichert Schnittstellenkonfigurationen (Verarbeitungsregeln, Konvertierungsschemata)",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "28",
+        "tags" : "Element,Container,Database",
+        "name" : "Datenbank",
+        "description" : "Datenhaltung für Dokumentationseinheiten",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "Single-Page-Webanwendung",
+        "description" : "Webapplikation Dokumentationsumgebung",
+        "relationships" : [ {
+          "id" : "33",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "9",
+          "description" : "Ruft API auf",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "TypeScript, React"
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Backend/API",
+        "description" : "Stellt Funktionalität via JSON/XML/HTTPS API bereit.",
+        "relationships" : [ {
+          "id" : "35",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "25",
+          "description" : "Liest von",
+          "technology" : "AMQP"
+        }, {
+          "id" : "41",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "28",
+          "description" : "Liest von und schreibt nach",
+          "technology" : "JDBC"
+        }, {
+          "id" : "39",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "4",
+          "description" : "Stellt Daten bereit für"
+        }, {
+          "id" : "37",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "2",
+          "description" : "Stellt Daten bereit für"
+        }, {
+          "id" : "34",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "8",
+          "description" : "Liefert an Browser des Nutzers aus",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "36",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "26",
+          "description" : "Schreibt nach",
+          "technology" : "AMQP"
+        } ],
+        "technology" : "Java, Spring MVC"
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "name" : "Importer",
+        "description" : "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (Anti-Corruption Layer)",
+        "relationships" : [ {
+          "id" : "60",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "6",
+          "description" : "Liest von",
+          "technology" : "FTPS"
+        }, {
+          "id" : "69",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "25",
+          "description" : "Schreibt nach",
+          "technology" : "AMQP"
+        }, {
+          "id" : "66",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "29",
+          "description" : "Liest von"
+        }, {
+          "id" : "45",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "26",
+          "description" : "Liest von",
+          "technology" : "AMQP"
+        }, {
+          "id" : "57",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "5",
+          "description" : "Liest von",
+          "technology" : "IMAP"
+        } ],
+        "technology" : "Java, Spring MVC",
+        "components" : [ {
+          "id" : "20",
+          "tags" : "Element,Component",
+          "name" : "Jobverwaltung",
+          "description" : "Delegation hereinkommender Importaufträge",
+          "relationships" : [ {
+            "id" : "47",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "11",
+            "description" : "Verwendet"
+          }, {
+            "id" : "48",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "12",
+            "description" : "Verwendet"
+          }, {
+            "id" : "49",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "13",
+            "description" : "Verwendet"
+          }, {
+            "id" : "54",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "24",
+            "description" : "Verwendet"
+          }, {
+            "id" : "50",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "14",
+            "description" : "Verwendet"
+          }, {
+            "id" : "51",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "17",
+            "description" : "Verwendet"
+          }, {
+            "id" : "53",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "23",
+            "description" : "Verwendet"
+          }, {
+            "id" : "52",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "22",
+            "description" : "Verwendet"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component",
+          "name" : "Scheduler",
+          "description" : "Erzeugt periodisch Jobs",
+          "relationships" : [ {
+            "id" : "55",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "26",
+            "description" : "Schreibt nach"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "name" : "Dokeinheit-Publisher",
+          "description" : "Schreibt vereinheitlichte Dokeinheiten-Daten in Queue",
+          "relationships" : [ {
+            "id" : "68",
+            "tags" : "Relationship",
+            "sourceId" : "18",
+            "destinationId" : "25",
+            "description" : "Schreibt nach",
+            "technology" : "AMQP"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "name" : "Webclient",
+          "description" : "Generischer HTTP-Client",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "name" : "SPARQL Client",
+          "description" : "Generischer SPARQL-Client",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "name" : "Job-Subscriber",
+          "description" : "Empfängt Importaufträge von Queue",
+          "relationships" : [ {
+            "id" : "46",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "20",
+            "description" : "Verwendet"
+          }, {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "26",
+            "description" : "Liest von",
+            "technology" : "AMQP"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "name" : "Dokumentenkonverter",
+          "description" : "Konvertiert eingehende Datensätze in Dokumentationseinheiten",
+          "relationships" : [ {
+            "id" : "70",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "18",
+            "description" : "Verwendet"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component",
+          "name" : "Konvertierungsschemata Repository",
+          "description" : "Stellt Konvertierungsschemata aus Konfigurationsdatenbank bereit",
+          "relationships" : [ {
+            "id" : "65",
+            "tags" : "Relationship",
+            "sourceId" : "23",
+            "destinationId" : "29",
+            "description" : "Liest von"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "Webcrawler Komponente",
+          "description" : "Extrahiert Daten von Webseiten",
+          "relationships" : [ {
+            "id" : "62",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "15",
+            "description" : "Verwendet"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "24",
+          "tags" : "Element,Component",
+          "name" : "Verarbeitungsregelwerke Repository",
+          "description" : "Stellt Verarbeitungsregelwerke aus Konfigurationsdatenbank bereit",
+          "relationships" : [ {
+            "id" : "67",
+            "tags" : "Relationship",
+            "sourceId" : "24",
+            "destinationId" : "29",
+            "description" : "Liest von"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "name" : "RSS Komponente",
+          "description" : "Empfängt Aktualisierungen von RSS-Diensten zur weiteren Verarbeitung",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "name" : "FTP Komponente",
+          "description" : "Lädt Daten von FTP Speicherort",
+          "relationships" : [ {
+            "id" : "59",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "6",
+            "description" : "Liest von",
+            "technology" : "FTPS"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "Webservice Komponente",
+          "description" : "Funktionalität für die Abfrage von Webservices (REST, SPARQL)",
+          "relationships" : [ {
+            "id" : "64",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "16",
+            "description" : "Verwendet"
+          }, {
+            "id" : "63",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "15",
+            "description" : "Verwendet"
+          } ],
+          "technology" : "Package",
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "name" : "E-mail Komponente",
+          "description" : "Liest Emails aus Funktionspostfach",
+          "relationships" : [ {
+            "id" : "56",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "5",
+            "description" : "Liest von",
+            "technology" : "IMAP"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container,Message Queue",
+        "name" : "Dokeinheiten Queue",
+        "description" : "Vorhaltung von eingehenden Dokumentationseinheiten für asynchrone Verarbeitung",
+        "technology" : "RabbitMQ"
+      }, {
+        "id" : "26",
+        "tags" : "Element,Container,Message Queue",
+        "name" : "Job Queue",
+        "description" : "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung",
+        "technology" : "RabbitMQ"
+      } ]
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "juris",
+      "description" : "Datenverwerter",
+      "location" : "Unspecified"
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "7",
+      "description" : "Rechtsinformationssystem",
+      "key" : "SystemContext",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "40"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "38"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "7",
+      "key" : "Containers",
+      "dimensions" : {
+        "width" : 4530,
+        "height" : 3158
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "25",
+        "x" : 1985,
+        "y" : 1604
+      }, {
+        "id" : "26",
+        "x" : 1985,
+        "y" : 2099
+      }, {
+        "id" : "27",
+        "x" : 1025,
+        "y" : 1014
+      }, {
+        "id" : "28",
+        "x" : 2930,
+        "y" : 2564
+      }, {
+        "id" : "29",
+        "x" : 1025,
+        "y" : 2564
+      }, {
+        "id" : "1",
+        "x" : 1510,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 3880,
+        "y" : 1559
+      }, {
+        "id" : "3",
+        "x" : 3880,
+        "y" : 624
+      }, {
+        "id" : "4",
+        "x" : 3880,
+        "y" : 1091
+      }, {
+        "id" : "5",
+        "x" : 200,
+        "y" : 1579
+      }, {
+        "id" : "6",
+        "x" : 200,
+        "y" : 2034
+      }, {
+        "id" : "8",
+        "x" : 1980,
+        "y" : 1014
+      }, {
+        "id" : "9",
+        "x" : 2935,
+        "y" : 1014
+      }, {
+        "id" : "10",
+        "x" : 1025,
+        "y" : 1829
+      } ],
+      "relationships" : [ {
+        "id" : "60"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 2545,
+          "y" : 1829
+        } ]
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 2695,
+          "y" : 1230
+        } ]
+      }, {
+        "id" : "33",
+        "vertices" : [ {
+          "x" : 2695,
+          "y" : 1085
+        } ],
+        "position" : 60
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "39"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Components",
+      "dimensions" : {
+        "width" : 5659,
+        "height" : 4319
+      },
+      "containerId" : "10",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 3684,
+        "y" : 2465
+      }, {
+        "id" : "11",
+        "x" : 899,
+        "y" : 1970
+      }, {
+        "id" : "23",
+        "x" : 4224,
+        "y" : 1870
+      }, {
+        "id" : "12",
+        "x" : 1424,
+        "y" : 1970
+      }, {
+        "id" : "13",
+        "x" : 2474,
+        "y" : 1970
+      }, {
+        "id" : "24",
+        "x" : 4224,
+        "y" : 1509
+      }, {
+        "id" : "14",
+        "x" : 1949,
+        "y" : 1970
+      }, {
+        "id" : "25",
+        "x" : 3684,
+        "y" : 3820
+      }, {
+        "id" : "26",
+        "x" : 3684,
+        "y" : 60
+      }, {
+        "id" : "15",
+        "x" : 2205,
+        "y" : 2665
+      }, {
+        "id" : "16",
+        "x" : 1649,
+        "y" : 2665
+      }, {
+        "id" : "17",
+        "x" : 2999,
+        "y" : 1970
+      }, {
+        "id" : "29",
+        "x" : 5009,
+        "y" : 1660
+      }, {
+        "id" : "18",
+        "x" : 3684,
+        "y" : 3142
+      }, {
+        "id" : "19",
+        "x" : 3147,
+        "y" : 659
+      }, {
+        "id" : "5",
+        "x" : 199,
+        "y" : 1155
+      }, {
+        "id" : "6",
+        "x" : 199,
+        "y" : 2955
+      }, {
+        "id" : "20",
+        "x" : 3147,
+        "y" : 1174
+      }, {
+        "id" : "21",
+        "x" : 4224,
+        "y" : 659
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "50",
+        "vertices" : [ {
+          "x" : 2315,
+          "y" : 1545
+        } ]
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "59"
+      }, {
+        "id" : "49"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "Existing System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Message Queue",
+          "shape" : "Pipe"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000",
+          "shape" : "Component"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "Components"
+    }
+  }
+}

@@ -4,16 +4,20 @@ Diagrams as code using [Structurizr](https://structurizr.com)
 
 ## Prerequisites
 
-Install the Structurizr CLI:
+Docker
 
 ```
-$ brew install structurizr-cli
+$ brew install docker --cask
 ```
 
-## Pushing an updated model using the CLI:
+## Start Structurizr Lite
+
+See https://structurizr.com/help/lite
 
 ```
-$ structurizr-cli push -id WORKSPACE_ID -key API_KEY -secret SECRET -workspace c4_model.workspace
+$ cd ris
+$ docker pull structurizr/lite
+$ docker run -it --rm -p 8080:8080 -v "$(pwd):/usr/local/structurizr" structurizr/lite
 ```
 
-(Obtain the workspace id, API key and secret from the settings of the workspace you want to push to.)
+Open workspace in browser at http://localhost:8080
