@@ -23,6 +23,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
                 xmlRenderer = component "XML Renderer" "Wandelt Dokeinheit in XML (DES) Repräsentation um" "Spring Bean"
                 csvRenderer = component "CSV Renderer" "Wandelt Dokeinheit in CSV Repräsentation um" "Spring Bean"
                 legalDocMlRenderer = component "LegalDocML Renderer" "Wandelt Dokeinheit in LegalDocML.de Repräsentation um" "Spring Bean"
+                protocolService = component "Protokoll-Komponente" "Erstellt und speichert Protokolle für Datenexport"
             }
             antiCorruptionLayer = container "Importer" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (Anti-Corruption Layer)" "Java, Spring MVC" {
                 emailComponent = component "E-mail Komponente" "Liest Emails aus Funktionspostfach" "Spring Bean"
@@ -76,6 +77,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         exportComponent -> documentRepository "Verwendet"
         exportComponent -> apiConfigRepository "Verwendet"
         exportComponent -> dslInterpreter "Verwendet"
+        exportComponent -> protocolService "Verwendet"
         user -> downloadController "Fragt manuellen Export an"
         # Importer
         jobSubscriber -> jobMessageQueue "Liest von" "AMQP"
