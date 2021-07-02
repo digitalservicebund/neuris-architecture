@@ -78,6 +78,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         exportComponent -> apiConfigRepository "Verwendet"
         exportComponent -> dslInterpreter "Verwendet"
         exportComponent -> protocolService "Verwendet"
+        protocolService -> database "Schreibt nach"
         user -> downloadController "Fragt manuellen Export an"
         # Importer
         jobSubscriber -> jobMessageQueue "Liest von" "AMQP"
