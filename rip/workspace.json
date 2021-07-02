@@ -1,0 +1,288 @@
+{
+  "id" : 1,
+  "name" : "RIP",
+  "description" : "Rechtsinformationsportal",
+  "revision" : 0,
+  "lastModifiedDate" : "2021-07-02T16:49:35Z",
+  "lastModifiedAgent" : "structurizr-web/2439",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJSSVAiICJSZWNodHNpbmZvcm1hdGlvbnNwb3J0YWwiIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc2l0ZVZpc2l0b3IgPSBwZXJzb24gIkludGVyZXNzaWVydGVyIiAiQmVzdWNoZXIgZGVyIFdlYnNlaXRlIgogICAgICAgIAogICAgICAgIHJpcyA9IHNvZnR3YXJlU3lzdGVtICJSSVMiICJSZWNodHNpbmZvcm1hdGlvbnNzeXN0ZW0iICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgYXBpQ2xpZW50ID0gc29mdHdhcmVTeXN0ZW0gIkFQSSBDbGllbnQiICIiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHJpcCA9IHNvZnR3YXJlU3lzdGVtICJSSVAiICJSZWNodHNpbmZvcm1hdGlvbnNwb3J0YWwiIHsKICAgICAgICAgICAgYmFja2VuZCA9IGNvbnRhaW5lciAiQmFja2VuZCIgIlN0ZWxsdCBGdW5rdGlvbmFsaXTDpHQgdmlhIEpTT04vWE1ML0hUVFBTIEFQSSBiZXJlaXQgdW5kIHJlbmRlcnQgSFRNTC4iICJKYXZhLCBTcHJpbmcgTVZDIgogICAgICAgICAgICB3ZWJzZXJ2ZXIgPSBjb250YWluZXIgIldlYnNlcnZlciIgIk5pbW10IEFuZnJhZ2VuIGVudGdlZ2VuLCBsaWVmZXJ0IHN0YXRpc2NoZW4gQ29udGVudCBhdXMiICJOZ2lueCIKICAgICAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIkRhdGVuYmFuayIgIkRhdGVuaGFsdHVuZyBmw7xyIGFsbGUgQXJ0ZW4gdm9uIFJlY2h0c2luZm9ybWF0aW9uZW4iICJQb3N0Z3JlU1FMIiAiRGF0YWJhc2UiCiAgICAgICAgICAgIHBvcnRhbCA9IGNvbnRhaW5lciAiUG9ydGFsIiAiIiAiSFRNTCwgQ1NTLCBKYXZhU2NyaXB0IiAiV2ViIEJyb3dzZXIiCiAgICAgICAgfQoKICAgICAgICAjIFJlbGF0aW9uc2hpcHMgYmV0d2VlbiBwZW9wbGUgYW5kIHNvZnR3YXJlIHN5c3RlbXMKICAgICAgICBzaXRlVmlzaXRvciAtPiByaXAgIkJlc3VjaHQiCiAgICAgICAgYXBpQ2xpZW50IC0+IHJpcCAiU2VuZGV0IEFuZnJhZ2VuIgogICAgICAgIAogICAgICAgICMgUmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbnRhaW5lcnMKICAgICAgICBzaXRlVmlzaXRvciAtPiBwb3J0YWwgIkJlc3VjaHQgcmVjaHRzaW5mb3JtYXRpb25zcG9ydGFsLmRlIiAiSFRUUFMiCiAgICAgICAgYXBpQ2xpZW50IC0+IHdlYnNlcnZlciAiU2VuZGV0IEFuZnJhZ2VuIiAiSFRUUFMiCiAgICAgICAgcG9ydGFsIC0+IHdlYnNlcnZlciAiRnJhZ3QgU2VpdGUgYW4iCiAgICAgICAgd2Vic2VydmVyIC0+IHBvcnRhbCAiTGllZmVydCBTZWl0ZSBhdXMiCiAgICAgICAgd2Vic2VydmVyIC0+IGJhY2tlbmQgIkxlaXRldCBBbmZyYWdlbiB3ZWl0ZXIiCiAgICAgICAgYmFja2VuZCAtPiB3ZWJzZXJ2ZXIgIkJlYW50d29ydGV0IEFuZnJhZ2VuIgogICAgICAgIGJhY2tlbmQgLT4gcmlzICJJbXBvcnRpZXJ0IGtvbnRpbnVpZXJsaWNoIERhdGVuIgogICAgICAgIGJhY2tlbmQgLT4gZGF0YWJhc2UgIkxpZXN0IHZvbiB1bmQgc2NocmVpYnQgbmFjaCIgIkpEQkMiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgcmlwICJTeXN0ZW1Db250ZXh0IiAiUmVjaHRzaW5mb3JtYXRpb25zcG9ydGFsIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgcmlwICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIHNoYXBlIHBlcnNvbgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Interessierter",
+      "description" : "Besucher der Webseite",
+      "relationships" : [ {
+        "id" : "9",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Besucht"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "8",
+        "description" : "Besucht rechtsinformationsportal.de",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "RIS",
+      "description" : "Rechtsinformationssystem",
+      "location" : "Unspecified"
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "name" : "RIP",
+      "description" : "Rechtsinformationsportal",
+      "relationships" : [ {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "2",
+        "description" : "Importiert kontinuierlich Daten"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "7",
+        "tags" : "Element,Container,Database",
+        "name" : "Datenbank",
+        "description" : "Datenhaltung für alle Arten von Rechtsinformationen",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "name" : "Webserver",
+        "description" : "Nimmt Anfragen entgegen, liefert statischen Content aus",
+        "relationships" : [ {
+          "id" : "14",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "8",
+          "description" : "Liefert Seite aus"
+        }, {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "5",
+          "description" : "Leitet Anfragen weiter"
+        } ],
+        "technology" : "Nginx"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "Portal",
+        "relationships" : [ {
+          "id" : "13",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "6",
+          "description" : "Fragt Seite an"
+        } ],
+        "technology" : "HTML, CSS, JavaScript"
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "name" : "Backend",
+        "description" : "Stellt Funktionalität via JSON/XML/HTTPS API bereit und rendert HTML.",
+        "relationships" : [ {
+          "id" : "17",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "2",
+          "description" : "Importiert kontinuierlich Daten"
+        }, {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "6",
+          "description" : "Beantwortet Anfragen"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "7",
+          "description" : "Liest von und schreibt nach",
+          "technology" : "JDBC"
+        } ],
+        "technology" : "Java, Spring MVC"
+      } ]
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "API Client",
+      "relationships" : [ {
+        "id" : "10",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Sendet Anfragen"
+      }, {
+        "id" : "12",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "6",
+        "description" : "Sendet Anfragen",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "4",
+      "description" : "Rechtsinformationsportal",
+      "key" : "SystemContext",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1566,
+        "height" : 2016
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 207,
+        "y" : 207
+      }, {
+        "id" : "2",
+        "x" : 545,
+        "y" : 1507
+      }, {
+        "id" : "3",
+        "x" : 907,
+        "y" : 257
+      }, {
+        "id" : "4",
+        "x" : 545,
+        "y" : 907
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "9"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "4",
+      "key" : "Containers",
+      "dimensions" : {
+        "width" : 3488,
+        "height" : 3023
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1092,
+        "y" : 15
+      }, {
+        "id" : "2",
+        "x" : 210,
+        "y" : 1415
+      }, {
+        "id" : "3",
+        "x" : 2282,
+        "y" : 115
+      }, {
+        "id" : "5",
+        "x" : 1667,
+        "y" : 1415
+      }, {
+        "id" : "6",
+        "x" : 2282,
+        "y" : 800
+      }, {
+        "id" : "7",
+        "x" : 1667,
+        "y" : 2140
+      }, {
+        "id" : "8",
+        "x" : 1047,
+        "y" : 800
+      } ],
+      "relationships" : [ {
+        "id" : "17"
+      }, {
+        "id" : "16",
+        "vertices" : [ {
+          "x" : 2115,
+          "y" : 1155
+        } ]
+      }, {
+        "id" : "15",
+        "vertices" : [ {
+          "x" : 2360,
+          "y" : 1325
+        } ]
+      }, {
+        "id" : "14",
+        "vertices" : [ {
+          "x" : 1817,
+          "y" : 840
+        } ],
+        "position" : 60
+      }, {
+        "id" : "13",
+        "vertices" : [ {
+          "x" : 1825,
+          "y" : 1035
+        } ],
+        "position" : 40
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "Existing System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "Containers"
+    }
+  }
+}
