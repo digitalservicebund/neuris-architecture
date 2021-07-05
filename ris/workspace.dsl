@@ -23,6 +23,8 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
                 xmlRenderer = component "XML Renderer" "Wandelt Dokeinheit in XML (DES) Repräsentation um" "Spring Bean"
                 csvRenderer = component "CSV Renderer" "Wandelt Dokeinheit in CSV Repräsentation um" "Spring Bean"
                 legalDocMlRenderer = component "LegalDocML Renderer" "Wandelt Dokeinheit in LegalDocML.de Repräsentation um" "Spring Bean"
+                pdfRenderer = component "PDF Renderer" "Wandelt Dokeinheit in PDF Repräsentation um" "Spring Bean"
+                wordDocRenderer = component "Word Renderer" "Wandelt Dokeinheit in Word Repräsentation um" "Spring Bean"
                 protocolService = component "Protokoll-Komponente" "Erstellt und speichert Protokolle für Datenexport"
             }
             antiCorruptionLayer = container "Importer" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (Anti-Corruption Layer)" "Java, Spring MVC" {
@@ -74,6 +76,8 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         downloadController -> xmlRenderer "Verwendet"
         downloadController -> csvRenderer "Verwendet"
         downloadController -> legalDocMlRenderer "Verwendet"
+        downloadController -> pdfRenderer "Verwendet"
+        downloadController -> wordDocRenderer "Verwendet"
         exportComponent -> documentRepository "Verwendet"
         exportComponent -> apiConfigRepository "Verwendet"
         exportComponent -> dslInterpreter "Verwendet"
