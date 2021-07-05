@@ -18,6 +18,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
                 apiConfigRepository = component "Schnittstellenkonfiguration" "Hält Exportprofile aus Konfiguration vor" "Spring Bean"
                 apiController = component "API Controller" "Stellt Schnittstellen als Webservice bereit" "Spring Bean"
                 downloadController = component "Downloads Controller" "Stellt Daten als Download bereit" "Spring Bean"
+                securityComponent = component "Security Komponente" "Authentifizierung aller Anfragen mittels JWT" "Spring Bean"
                 exportComponent = component "Exporter Komponente" "Bewerkstelligt Datenexport gemäss Schnittstellenkonfiguration (Filter)" "Spring Bean"
                 dslInterpreter = component "DSL Interpreter" "Übersetzt Abfrage-DSL in tatsächliche Abfrage" "Spring Bean"
                 xmlRenderer = component "XML Renderer" "Wandelt Dokeinheit in XML (DES) Repräsentation um" "Spring Bean"
@@ -25,7 +26,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
                 legalDocMlRenderer = component "LegalDocML Renderer" "Wandelt Dokeinheit in LegalDocML.de Repräsentation um" "Spring Bean"
                 pdfRenderer = component "PDF Renderer" "Wandelt Dokeinheit in PDF Repräsentation um" "Spring Bean"
                 wordDocRenderer = component "Word Renderer" "Wandelt Dokeinheit in Word Repräsentation um" "Spring Bean"
-                protocolService = component "Protokoll-Komponente" "Erstellt und speichert Protokolle für Datenexport"
+                protocolService = component "Protokoll-Komponente" "Erstellt und speichert Protokolle für Datenexport" "Spring Bean"
             }
             antiCorruptionLayer = container "Importer" "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (Anti-Corruption Layer)" "Java, Spring MVC" {
                 emailComponent = component "E-mail Komponente" "Liest Emails aus Funktionspostfach" "Spring Bean"
@@ -71,6 +72,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         documentSubscriber -> documentRepository "Verwendet"
         apiController -> exportComponent "Verwendet"
         apiController -> xmlRenderer "Verwendet"
+        apiController -> securityComponent "Verwendet"
         apiController -> consumer "Stellt Daten bereit für"
         downloadController -> exportComponent "Verwendet"
         downloadController -> xmlRenderer "Verwendet"
@@ -78,6 +80,7 @@ workspace "VeRIKA" "Verwirklichung Rechtsinformationssystem" {
         downloadController -> legalDocMlRenderer "Verwendet"
         downloadController -> pdfRenderer "Verwendet"
         downloadController -> wordDocRenderer "Verwendet"
+        downloadController -> securityComponent "Verwendet"
         exportComponent -> documentRepository "Verwendet"
         exportComponent -> apiConfigRepository "Verwendet"
         exportComponent -> dslInterpreter "Verwendet"
