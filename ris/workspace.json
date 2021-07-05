@@ -3,7 +3,7 @@
   "name" : "VeRIKA",
   "description" : "Verwirklichung Rechtsinformationssystem",
   "revision" : 0,
-  "lastModifiedDate" : "2021-07-05T08:31:05Z",
+  "lastModifiedDate" : "2021-07-05T08:37:12Z",
   "lastModifiedAgent" : "structurizr-web/2439",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJWZVJJS0EiICJWZXJ3aXJrbGljaHVuZyBSZWNodHNpbmZvcm1hdGlvbnNzeXN0ZW0iIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiRG9rdW1lbnRhciIgIk51dHplciBkZXIgRmFjaGFud2VuZHVuZyIKICAgICAgICAKICAgICAgICByaXAgPSBzb2Z0d2FyZVN5c3RlbSAiUklQIiAiRGF0ZW52ZXJ3ZXJ0ZXIiICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgYnZlcmZnID0gc29mdHdhcmVTeXN0ZW0gIkJWZXJmRyIgIkRhdGVubGllZmVyYW50IiAiRXhpc3RpbmcgU3lzdGVtIgogICAgICAgIGp1cmlzID0gc29mdHdhcmVTeXN0ZW0gImp1cmlzIiAiRGF0ZW52ZXJ3ZXJ0ZXIiICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgZW1haWwgPSBzb2Z0d2FyZVN5c3RlbSAiRW1haWwiICJGdW5rdGlvbnNwb3N0ZmFjaCIgIkV4aXN0aW5nIFN5c3RlbSIKICAgICAgICBmdHAgPSBzb2Z0d2FyZVN5c3RlbSAiRlRQIFNlcnZlciIgIlNwZWljaGVyb3J0IGbDvHIgUHVzaC1EaWVuc3QiICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgY29uc3VtZXIgPSBzb2Z0d2FyZVN5c3RlbSAiRGF0ZW52ZXJ3ZXJ0ZXIiICJBbGxnZW1laW5lIFNjaG5pdHRzdGVsbGUgKERFUykiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHJpcyA9IHNvZnR3YXJlU3lzdGVtICJSSVMiICJEb2t1bWVudGF0aW9uc3VtZ2VidW5nIERhdGVuaGFsdHVuZyIgewogICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNpbmdsZS1QYWdlLVdlYmFud2VuZHVuZyIgIldlYmFwcGxpa2F0aW9uIERva3VtZW50YXRpb25zdW1nZWJ1bmciICJUeXBlU2NyaXB0LCBSZWFjdCIgIldlYiBCcm93c2VyIgogICAgICAgICAgICBiYWNrZW5kID0gY29udGFpbmVyICJCYWNrZW5kL0FQSSIgIlN0ZWxsdCBGdW5rdGlvbmFsaXTDpHQgdmlhIEpTT04vWE1ML0hUVFBTIEFQSSBiZXJlaXQuIiAiSmF2YSwgU3ByaW5nIE1WQyIgewogICAgICAgICAgICAgICAgZG9jdW1lbnRTdWJzY3JpYmVyID0gY29tcG9uZW50ICJEb2tlaW5oZWl0ZW4tU3Vic2NyaWJlciIgIkVtcGbDpG5ndCBEb2tlaW5oZWl0ZW4gdm9uIFF1ZXVlIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBkb2N1bWVudFJlcG9zaXRvcnkgPSBjb21wb25lbnQgIkRva2VpbmhlaXRlbiBSZXBvc2l0b3J5IiAiSMOkbHQgRG9rZWluaGVpdGVuIGF1cyBEYXRlbmhhbHR1bmcgdm9yIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBhcGlDb25maWdSZXBvc2l0b3J5ID0gY29tcG9uZW50ICJTY2huaXR0c3RlbGxlbmtvbmZpZ3VyYXRpb24iICJIw6RsdCBFeHBvcnRwcm9maWxlIGF1cyBLb25maWd1cmF0aW9uIHZvciIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgYXBpQ29udHJvbGxlciA9IGNvbXBvbmVudCAiQVBJIENvbnRyb2xsZXIiICJTdGVsbHQgU2Nobml0dHN0ZWxsZW4gYWxzIFdlYnNlcnZpY2UgYmVyZWl0IiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBkb3dubG9hZENvbnRyb2xsZXIgPSBjb21wb25lbnQgIkRvd25sb2FkcyBDb250cm9sbGVyIiAiU3RlbGx0IERhdGVuIGFscyBEb3dubG9hZCBiZXJlaXQiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHNlY3VyaXR5Q29tcG9uZW50ID0gY29tcG9uZW50ICJTZWN1cml0eSBLb21wb25lbnRlIiAiQXV0aGVudGlmaXppZXJ1bmcgYWxsZXIgQW5mcmFnZW4gbWl0dGVscyBKV1QiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIGV4cG9ydENvbXBvbmVudCA9IGNvbXBvbmVudCAiRXhwb3J0ZXIgS29tcG9uZW50ZSIgIkJld2Vya3N0ZWxsaWd0IERhdGVuZXhwb3J0IGdlbcOkc3MgU2Nobml0dHN0ZWxsZW5rb25maWd1cmF0aW9uIChGaWx0ZXIpIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBkc2xJbnRlcnByZXRlciA9IGNvbXBvbmVudCAiRFNMIEludGVycHJldGVyIiAiw5xiZXJzZXR6dCBBYmZyYWdlLURTTCBpbiB0YXRzw6RjaGxpY2hlIEFiZnJhZ2UiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHhtbFJlbmRlcmVyID0gY29tcG9uZW50ICJYTUwgUmVuZGVyZXIiICJXYW5kZWx0IERva2VpbmhlaXQgaW4gWE1MIChERVMpIFJlcHLDpHNlbnRhdGlvbiB1bSIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgY3N2UmVuZGVyZXIgPSBjb21wb25lbnQgIkNTViBSZW5kZXJlciIgIldhbmRlbHQgRG9rZWluaGVpdCBpbiBDU1YgUmVwcsOkc2VudGF0aW9uIHVtIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBsZWdhbERvY01sUmVuZGVyZXIgPSBjb21wb25lbnQgIkxlZ2FsRG9jTUwgUmVuZGVyZXIiICJXYW5kZWx0IERva2VpbmhlaXQgaW4gTGVnYWxEb2NNTC5kZSBSZXByw6RzZW50YXRpb24gdW0iICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHBkZlJlbmRlcmVyID0gY29tcG9uZW50ICJQREYgUmVuZGVyZXIiICJXYW5kZWx0IERva2VpbmhlaXQgaW4gUERGIFJlcHLDpHNlbnRhdGlvbiB1bSIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgd29yZERvY1JlbmRlcmVyID0gY29tcG9uZW50ICJXb3JkIFJlbmRlcmVyIiAiV2FuZGVsdCBEb2tlaW5oZWl0IGluIFdvcmQgUmVwcsOkc2VudGF0aW9uIHVtIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBwcm90b2NvbFNlcnZpY2UgPSBjb21wb25lbnQgIlByb3Rva29sbC1Lb21wb25lbnRlIiAiRXJzdGVsbHQgdW5kIHNwZWljaGVydCBQcm90b2tvbGxlIGbDvHIgRGF0ZW5leHBvcnQiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgfQogICAgICAgICAgICBhbnRpQ29ycnVwdGlvbkxheWVyID0gY29udGFpbmVyICJJbXBvcnRlciIgIkltcG9ydCB2b24gRnJlbWRkYXRlbiB1bmQgw5xiZXJzZXR6dW5nIGluIERva3VtZW50YXRpb25zZWluaGVpdGVuIChBbnRpLUNvcnJ1cHRpb24gTGF5ZXIpIiAiSmF2YSwgU3ByaW5nIE1WQyIgewogICAgICAgICAgICAgICAgZW1haWxDb21wb25lbnQgPSBjb21wb25lbnQgIkUtbWFpbCBLb21wb25lbnRlIiAiTGllc3QgRW1haWxzIGF1cyBGdW5rdGlvbnNwb3N0ZmFjaCIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgZnRwQ29tcG9uZW50ID0gY29tcG9uZW50ICJGVFAgS29tcG9uZW50ZSIgIkzDpGR0IERhdGVuIHZvbiBGVFAgU3BlaWNoZXJvcnQiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHdlYkNyYXdsZXJDb21wb25lbnQgPSBjb21wb25lbnQgIldlYmNyYXdsZXIgS29tcG9uZW50ZSIgIkV4dHJhaGllcnQgRGF0ZW4gdm9uIFdlYnNlaXRlbiIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgd2ViU2VydmljZUNvbXBvbmVudCA9IGNvbXBvbmVudCAiV2Vic2VydmljZSBLb21wb25lbnRlIiAiRnVua3Rpb25hbGl0w6R0IGbDvHIgZGllIEFiZnJhZ2Ugdm9uIFdlYnNlcnZpY2VzIChSRVNULCBTUEFSUUwpIiAiUGFja2FnZSIKICAgICAgICAgICAgICAgIHdlYkNsaWVudCA9IGNvbXBvbmVudCAiV2ViY2xpZW50IiAiR2VuZXJpc2NoZXIgSFRUUC1DbGllbnQiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHNwYXJxbENsaWVudCA9IGNvbXBvbmVudCAiU1BBUlFMIENsaWVudCIgIkdlbmVyaXNjaGVyIFNQQVJRTC1DbGllbnQiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHJzc1JlYWRlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiUlNTIEtvbXBvbmVudGUiICJFbXBmw6RuZ3QgQWt0dWFsaXNpZXJ1bmdlbiB2b24gUlNTLURpZW5zdGVuIHp1ciB3ZWl0ZXJlbiBWZXJhcmJlaXR1bmciICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIGRvY3VtZW50UHVibGlzaGVyID0gY29tcG9uZW50ICJEb2tlaW5oZWl0LVB1Ymxpc2hlciIgIlNjaHJlaWJ0IHZlcmVpbmhlaXRsaWNodGUgRG9rZWluaGVpdGVuLURhdGVuIGluIFF1ZXVlIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBqb2JTdWJzY3JpYmVyID0gY29tcG9uZW50ICJKb2ItU3Vic2NyaWJlciIgIkVtcGbDpG5ndCBJbXBvcnRhdWZ0csOkZ2Ugdm9uIFF1ZXVlIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBqb2JNYW5hZ2VyID0gY29tcG9uZW50ICJKb2J2ZXJ3YWx0dW5nIiAiRGVsZWdhdGlvbiBoZXJlaW5rb21tZW5kZXIgSW1wb3J0YXVmdHLDpGdlIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBzY2hlZHVsZXIgPSBjb21wb25lbnQgIlNjaGVkdWxlciIgIkVyemV1Z3QgcGVyaW9kaXNjaCBKb2JzIiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgICAgICBkb2N1bWVudENvbnZlcnRlciA9IGNvbXBvbmVudCAiRG9rdW1lbnRlbmtvbnZlcnRlciIgIktvbnZlcnRpZXJ0IGVpbmdlaGVuZGUgRGF0ZW5zw6R0emUgaW4gRG9rdW1lbnRhdGlvbnNlaW5oZWl0ZW4iICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIGNvbnZlcnRlclNjaGVtYVJlcG9zaXRvcnkgPSBjb21wb25lbnQgIktvbnZlcnRpZXJ1bmdzc2NoZW1hdGEgUmVwb3NpdG9yeSIgIlN0ZWxsdCBLb252ZXJ0aWVydW5nc3NjaGVtYXRhIGF1cyBLb25maWd1cmF0aW9uc2RhdGVuYmFuayBiZXJlaXQiICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIHJ1bGVzUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiVmVyYXJiZWl0dW5nc3JlZ2Vsd2Vya2UgUmVwb3NpdG9yeSIgIlN0ZWxsdCBWZXJhcmJlaXR1bmdzcmVnZWx3ZXJrZSBhdXMgS29uZmlndXJhdGlvbnNkYXRlbmJhbmsgYmVyZWl0IiAiU3ByaW5nIEJlYW4iCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZG9jdW1lbnRNZXNzYWdlUXVldWUgPSBjb250YWluZXIgIkRva2VpbmhlaXRlbiBRdWV1ZSIgIlZvcmhhbHR1bmcgdm9uIGVpbmdlaGVuZGVuIERva3VtZW50YXRpb25zZWluaGVpdGVuIGbDvHIgYXN5bmNocm9uZSBWZXJhcmJlaXR1bmciICJSYWJiaXRNUSIgIk1lc3NhZ2UgUXVldWUiCiAgICAgICAgICAgIGpvYk1lc3NhZ2VRdWV1ZSA9IGNvbnRhaW5lciAiSm9iIFF1ZXVlIiAiVm9yaGFsdHVuZyB2b24gRGF0ZW7DvGJlcm5haG1lam9icyBmw7xyIGFzeW5jaHJvbmUgVmVyYXJiZWl0dW5nIiAiUmFiYml0TVEiICJNZXNzYWdlIFF1ZXVlIgogICAgICAgICAgICBpYW0gPSBjb250YWluZXIgIklBTSIgIlNpbmdsZS1TaWduIE9uIG1pdHRlbHMgT0F1dGgyICsgSldUIiAiSmF2YSwgS2V5Y2xvYWsiCiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRlbmJhbmsiICJEYXRlbmhhbHR1bmcgZsO8ciBEb2t1bWVudGF0aW9uc2VpbmhlaXRlbiIgIlBvc3RncmVTUUwiICJEYXRhYmFzZSIKICAgICAgICAgICAgY29uZmlndXJhdGlvbiA9IGNvbnRhaW5lciAiS29uZmlndXJhdGlvbiIgIlNwZWljaGVydCBTY2huaXR0c3RlbGxlbmtvbmZpZ3VyYXRpb25lbiAoVmVyYXJiZWl0dW5nc3JlZ2VsbiwgS29udmVydGllcnVuZ3NzY2hlbWF0YSkiICJQb3N0Z3JlU1FMIiAiRGF0YWJhc2UiCiAgICAgICAgfQoKICAgICAgICAjIFJlbGF0aW9uc2hpcHMgYmV0d2VlbiBwZW9wbGUgYW5kIHNvZnR3YXJlIHN5c3RlbXMKICAgICAgICB1c2VyIC0+IHJpcyAiQXJiZWl0ZXQgaW4iCgogICAgICAgICMgUmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbnRhaW5lcnMKICAgICAgICB1c2VyIC0+IGlhbSAiTG9nZ3Qgc2ljaCBlaW4iICJIVFRQUyIKICAgICAgICB1c2VyIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiU2llaHQgQXVmZ2FiZW5saXN0ZSBpbiIgIkhUVFBTIgogICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAtPiBiYWNrZW5kICJSdWZ0IEFQSSBhdWYiICJKU09OL0hUVFBTIgogICAgICAgIGJhY2tlbmQgLT4gc2luZ2xlUGFnZUFwcGxpY2F0aW9uICJMaWVmZXJ0IGFuIEJyb3dzZXIgZGVzIE51dHplcnMgYXVzIiAiSFRUUFMiCiAgICAgICAgYmFja2VuZCAtPiBqb2JNZXNzYWdlUXVldWUgIlNjaHJlaWJ0IG5hY2giICJBTVFQIgogICAgICAgIGJhY2tlbmQgLT4gcmlwICJTdGVsbHQgRGF0ZW4gYmVyZWl0IGbDvHIiCiAgICAgICAgYmFja2VuZCAtPiBqdXJpcyAiU3RlbGx0IERhdGVuIGJlcmVpdCBmw7xyIgogICAgICAgIGJ2ZXJmZyAtPiBiYWNrZW5kICJTdGVsbHQgRGF0ZW4gYmVyZWl0IGbDvHIiCgogICAgICAgICMgUmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbXBvbmVudHMKICAgICAgICAjIEJhY2tlbmQKICAgICAgICBkb2N1bWVudFJlcG9zaXRvcnkgLT4gZGF0YWJhc2UgIkxpZXN0IHZvbiB1bmQgc2NocmVpYnQgbmFjaCIgIkpEQkMiCiAgICAgICAgYXBpQ29uZmlnUmVwb3NpdG9yeSAtPiBkYXRhYmFzZSAiTGllc3Qgdm9uIiAiSkRCQyIKICAgICAgICBkb2N1bWVudFN1YnNjcmliZXIgLT4gZG9jdW1lbnRNZXNzYWdlUXVldWUgIkxpZXN0IHZvbiIgIkFNUVAiCiAgICAgICAgZG9jdW1lbnRTdWJzY3JpYmVyIC0+IGRvY3VtZW50UmVwb3NpdG9yeSAiVmVyd2VuZGV0IgogICAgICAgIGFwaUNvbnRyb2xsZXIgLT4gZXhwb3J0Q29tcG9uZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgYXBpQ29udHJvbGxlciAtPiB4bWxSZW5kZXJlciAiVmVyd2VuZGV0IgogICAgICAgIGFwaUNvbnRyb2xsZXIgLT4gc2VjdXJpdHlDb21wb25lbnQgIlZlcndlbmRldCIKICAgICAgICBhcGlDb250cm9sbGVyIC0+IGNvbnN1bWVyICJTdGVsbHQgRGF0ZW4gYmVyZWl0IGbDvHIiCiAgICAgICAgZG93bmxvYWRDb250cm9sbGVyIC0+IGV4cG9ydENvbXBvbmVudCAiVmVyd2VuZGV0IgogICAgICAgIGRvd25sb2FkQ29udHJvbGxlciAtPiB4bWxSZW5kZXJlciAiVmVyd2VuZGV0IgogICAgICAgIGRvd25sb2FkQ29udHJvbGxlciAtPiBjc3ZSZW5kZXJlciAiVmVyd2VuZGV0IgogICAgICAgIGRvd25sb2FkQ29udHJvbGxlciAtPiBsZWdhbERvY01sUmVuZGVyZXIgIlZlcndlbmRldCIKICAgICAgICBkb3dubG9hZENvbnRyb2xsZXIgLT4gcGRmUmVuZGVyZXIgIlZlcndlbmRldCIKICAgICAgICBkb3dubG9hZENvbnRyb2xsZXIgLT4gd29yZERvY1JlbmRlcmVyICJWZXJ3ZW5kZXQiCiAgICAgICAgZG93bmxvYWRDb250cm9sbGVyIC0+IHNlY3VyaXR5Q29tcG9uZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgZXhwb3J0Q29tcG9uZW50IC0+IGRvY3VtZW50UmVwb3NpdG9yeSAiVmVyd2VuZGV0IgogICAgICAgIGV4cG9ydENvbXBvbmVudCAtPiBhcGlDb25maWdSZXBvc2l0b3J5ICJWZXJ3ZW5kZXQiCiAgICAgICAgZXhwb3J0Q29tcG9uZW50IC0+IGRzbEludGVycHJldGVyICJWZXJ3ZW5kZXQiCiAgICAgICAgZXhwb3J0Q29tcG9uZW50IC0+IHByb3RvY29sU2VydmljZSAiVmVyd2VuZGV0IgogICAgICAgIHByb3RvY29sU2VydmljZSAtPiBkYXRhYmFzZSAiU2NocmVpYnQgbmFjaCIKICAgICAgICB1c2VyIC0+IGRvd25sb2FkQ29udHJvbGxlciAiRnJhZ3QgbWFudWVsbGVuIEV4cG9ydCBhbiIKICAgICAgICAjIEltcG9ydGVyCiAgICAgICAgam9iU3Vic2NyaWJlciAtPiBqb2JNZXNzYWdlUXVldWUgIkxpZXN0IHZvbiIgIkFNUVAiCiAgICAgICAgam9iU3Vic2NyaWJlciAtPiBqb2JNYW5hZ2VyICJWZXJ3ZW5kZXQiCiAgICAgICAgam9iTWFuYWdlciAtPiBlbWFpbENvbXBvbmVudCAiVmVyd2VuZGV0IgogICAgICAgIGpvYk1hbmFnZXIgLT4gZnRwQ29tcG9uZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgam9iTWFuYWdlciAtPiB3ZWJDcmF3bGVyQ29tcG9uZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgam9iTWFuYWdlciAtPiB3ZWJTZXJ2aWNlQ29tcG9uZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgam9iTWFuYWdlciAtPiByc3NSZWFkZXJDb21wb25lbnQgIlZlcndlbmRldCIKICAgICAgICBqb2JNYW5hZ2VyIC0+IGRvY3VtZW50Q29udmVydGVyICJWZXJ3ZW5kZXQiCiAgICAgICAgam9iTWFuYWdlciAtPiBjb252ZXJ0ZXJTY2hlbWFSZXBvc2l0b3J5ICJWZXJ3ZW5kZXQiCiAgICAgICAgam9iTWFuYWdlciAtPiBydWxlc1JlcG9zaXRvcnkgIlZlcndlbmRldCIKICAgICAgICBzY2hlZHVsZXIgLT4gam9iTWVzc2FnZVF1ZXVlICJTY2hyZWlidCBuYWNoIgogICAgICAgIGVtYWlsQ29tcG9uZW50IC0+IGVtYWlsICJMaWVzdCB2b24iICJJTUFQIgogICAgICAgIGZ0cENvbXBvbmVudCAtPiBmdHAgIkxpZXN0IHZvbiIgIkZUUFMiCiAgICAgICAgd2ViQ3Jhd2xlckNvbXBvbmVudCAtPiB3ZWJDbGllbnQgIlZlcndlbmRldCIKICAgICAgICB3ZWJTZXJ2aWNlQ29tcG9uZW50IC0+IHdlYkNsaWVudCAiVmVyd2VuZGV0IgogICAgICAgIHdlYlNlcnZpY2VDb21wb25lbnQgLT4gc3BhcnFsQ2xpZW50ICJWZXJ3ZW5kZXQiCiAgICAgICAgY29udmVydGVyU2NoZW1hUmVwb3NpdG9yeSAtPiBjb25maWd1cmF0aW9uICJMaWVzdCB2b24iCiAgICAgICAgcnVsZXNSZXBvc2l0b3J5IC0+IGNvbmZpZ3VyYXRpb24gIkxpZXN0IHZvbiIKICAgICAgICBkb2N1bWVudFB1Ymxpc2hlciAtPiBkb2N1bWVudE1lc3NhZ2VRdWV1ZSAiU2NocmVpYnQgbmFjaCIgIkFNUVAiCiAgICAgICAgZG9jdW1lbnRDb252ZXJ0ZXIgLT4gZG9jdW1lbnRQdWJsaXNoZXIgIlZlcndlbmRldCIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCByaXMgIlN5c3RlbUNvbnRleHQiICJSZWNodHNpbmZvcm1hdGlvbnNzeXN0ZW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgZnRwCiAgICAgICAgICAgIGV4Y2x1ZGUgZW1haWwKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHJpcyAiQ29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBhbnRpQ29ycnVwdGlvbkxheWVyICJBY2xDb21wb25lbnRzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGJhY2tlbmQgIkJhY2tlbmRDb21wb25lbnRzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIHNoYXBlIHBlcnNvbgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTWVzc2FnZSBRdWV1ZSIgewogICAgICAgICAgICAgICAgc2hhcGUgUGlwZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgc2hhcGUgQ29tcG9uZW50CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM4NWJiZjAKICAgICAgICAgICAgICAgIGNvbG9yICMwMDAwMDAKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAp9Cg=="
@@ -21,6 +21,12 @@
         "sourceId" : "1",
         "destinationId" : "10",
         "description" : "Fragt manuellen Export an"
+      }, {
+        "id" : "45",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "8",
+        "description" : "Arbeitet in"
       }, {
         "id" : "46",
         "tags" : "Relationship",
@@ -41,16 +47,28 @@
         "destinationId" : "9",
         "description" : "Sieht Aufgabenliste in",
         "technology" : "HTTPS"
-      }, {
-        "id" : "45",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "8",
-        "description" : "Arbeitet in"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
+      "id" : "7",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Datenverwerter",
+      "description" : "Allgemeine Schnittstelle (DES)",
+      "location" : "Unspecified"
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "FTP Server",
+      "description" : "Speicherort für Push-Dienst",
+      "location" : "Unspecified"
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Email",
+      "description" : "Funktionspostfach",
+      "location" : "Unspecified"
+    }, {
       "id" : "4",
       "tags" : "Element,Software System,Existing System",
       "name" : "juris",
@@ -76,34 +94,15 @@
       } ],
       "location" : "Unspecified"
     }, {
-      "id" : "6",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "FTP Server",
-      "description" : "Speicherort für Push-Dienst",
-      "location" : "Unspecified"
-    }, {
-      "id" : "5",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "Email",
-      "description" : "Funktionspostfach",
-      "location" : "Unspecified"
-    }, {
       "id" : "8",
       "tags" : "Element,Software System",
       "name" : "RIS",
       "description" : "Dokumentationsumgebung Datenhaltung",
       "relationships" : [ {
-        "id" : "97",
+        "id" : "68",
         "tags" : "Relationship",
         "sourceId" : "8",
-        "destinationId" : "5",
-        "description" : "Liest von",
-        "technology" : "IMAP"
-      }, {
-        "id" : "52",
-        "tags" : "Relationship",
-        "sourceId" : "8",
-        "destinationId" : "2",
+        "destinationId" : "7",
         "description" : "Stellt Daten bereit für"
       }, {
         "id" : "54",
@@ -119,358 +118,26 @@
         "description" : "Liest von",
         "technology" : "FTPS"
       }, {
-        "id" : "68",
+        "id" : "52",
         "tags" : "Relationship",
         "sourceId" : "8",
-        "destinationId" : "7",
+        "destinationId" : "2",
         "description" : "Stellt Daten bereit für"
+      }, {
+        "id" : "97",
+        "tags" : "Relationship",
+        "sourceId" : "8",
+        "destinationId" : "5",
+        "description" : "Liest von",
+        "technology" : "IMAP"
       } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "10",
-        "tags" : "Element,Container",
-        "name" : "Backend/API",
-        "description" : "Stellt Funktionalität via JSON/XML/HTTPS API bereit.",
-        "relationships" : [ {
-          "id" : "61",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "40",
-          "description" : "Liest von",
-          "technology" : "AMQP"
-        }, {
-          "id" : "49",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "9",
-          "description" : "Liefert an Browser des Nutzers aus",
-          "technology" : "HTTPS"
-        }, {
-          "id" : "50",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "41",
-          "description" : "Schreibt nach",
-          "technology" : "AMQP"
-        }, {
-          "id" : "58",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "43",
-          "description" : "Liest von und schreibt nach",
-          "technology" : "JDBC"
-        }, {
-          "id" : "67",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "7",
-          "description" : "Stellt Daten bereit für"
-        }, {
-          "id" : "53",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "4",
-          "description" : "Stellt Daten bereit für"
-        }, {
-          "id" : "51",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "2",
-          "description" : "Stellt Daten bereit für"
-        } ],
-        "technology" : "Java, Spring MVC",
-        "components" : [ {
-          "id" : "22",
-          "tags" : "Element,Component",
-          "name" : "PDF Renderer",
-          "description" : "Wandelt Dokeinheit in PDF Repräsentation um",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "12",
-          "tags" : "Element,Component",
-          "name" : "Dokeinheiten Repository",
-          "description" : "Hält Dokeinheiten aus Datenhaltung vor",
-          "relationships" : [ {
-            "id" : "57",
-            "tags" : "Relationship",
-            "sourceId" : "12",
-            "destinationId" : "43",
-            "description" : "Liest von und schreibt nach",
-            "technology" : "JDBC"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "19",
-          "tags" : "Element,Component",
-          "name" : "XML Renderer",
-          "description" : "Wandelt Dokeinheit in XML (DES) Repräsentation um",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "13",
-          "tags" : "Element,Component",
-          "name" : "Schnittstellenkonfiguration",
-          "description" : "Hält Exportprofile aus Konfiguration vor",
-          "relationships" : [ {
-            "id" : "59",
-            "tags" : "Relationship",
-            "sourceId" : "13",
-            "destinationId" : "43",
-            "description" : "Liest von",
-            "technology" : "JDBC"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "15",
-          "tags" : "Element,Component",
-          "name" : "Downloads Controller",
-          "description" : "Stellt Daten als Download bereit",
-          "relationships" : [ {
-            "id" : "75",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "16",
-            "description" : "Verwendet"
-          }, {
-            "id" : "70",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "19",
-            "description" : "Verwendet"
-          }, {
-            "id" : "69",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "17",
-            "description" : "Verwendet"
-          }, {
-            "id" : "73",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "22",
-            "description" : "Verwendet"
-          }, {
-            "id" : "71",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "20",
-            "description" : "Verwendet"
-          }, {
-            "id" : "72",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "21",
-            "description" : "Verwendet"
-          }, {
-            "id" : "74",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "23",
-            "description" : "Verwendet"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "11",
-          "tags" : "Element,Component",
-          "name" : "Dokeinheiten-Subscriber",
-          "description" : "Empfängt Dokeinheiten von Queue",
-          "relationships" : [ {
-            "id" : "62",
-            "tags" : "Relationship",
-            "sourceId" : "11",
-            "destinationId" : "12",
-            "description" : "Verwendet"
-          }, {
-            "id" : "60",
-            "tags" : "Relationship",
-            "sourceId" : "11",
-            "destinationId" : "40",
-            "description" : "Liest von",
-            "technology" : "AMQP"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "23",
-          "tags" : "Element,Component",
-          "name" : "Word Renderer",
-          "description" : "Wandelt Dokeinheit in Word Repräsentation um",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "14",
-          "tags" : "Element,Component",
-          "name" : "API Controller",
-          "description" : "Stellt Schnittstellen als Webservice bereit",
-          "relationships" : [ {
-            "id" : "66",
-            "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "7",
-            "description" : "Stellt Daten bereit für"
-          }, {
-            "id" : "63",
-            "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "17",
-            "description" : "Verwendet"
-          }, {
-            "id" : "64",
-            "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "19",
-            "description" : "Verwendet"
-          }, {
-            "id" : "65",
-            "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "16",
-            "description" : "Verwendet"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "17",
-          "tags" : "Element,Component",
-          "name" : "Exporter Komponente",
-          "description" : "Bewerkstelligt Datenexport gemäss Schnittstellenkonfiguration (Filter)",
-          "relationships" : [ {
-            "id" : "77",
-            "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "13",
-            "description" : "Verwendet"
-          }, {
-            "id" : "78",
-            "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "18",
-            "description" : "Verwendet"
-          }, {
-            "id" : "76",
-            "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "12",
-            "description" : "Verwendet"
-          }, {
-            "id" : "79",
-            "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "24",
-            "description" : "Verwendet"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "20",
-          "tags" : "Element,Component",
-          "name" : "CSV Renderer",
-          "description" : "Wandelt Dokeinheit in CSV Repräsentation um",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "18",
-          "tags" : "Element,Component",
-          "name" : "DSL Interpreter",
-          "description" : "Übersetzt Abfrage-DSL in tatsächliche Abfrage",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "24",
-          "tags" : "Element,Component",
-          "name" : "Protokoll-Komponente",
-          "description" : "Erstellt und speichert Protokolle für Datenexport",
-          "relationships" : [ {
-            "id" : "80",
-            "tags" : "Relationship",
-            "sourceId" : "24",
-            "destinationId" : "43",
-            "description" : "Schreibt nach"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "16",
-          "tags" : "Element,Component",
-          "name" : "Security Komponente",
-          "description" : "Authentifizierung aller Anfragen mittels JWT",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "21",
-          "tags" : "Element,Component",
-          "name" : "LegalDocML Renderer",
-          "description" : "Wandelt Dokeinheit in LegalDocML.de Repräsentation um",
-          "technology" : "Spring Bean",
-          "size" : 0
-        } ]
-      }, {
-        "id" : "40",
-        "tags" : "Element,Container,Message Queue",
-        "name" : "Dokeinheiten Queue",
-        "description" : "Vorhaltung von eingehenden Dokumentationseinheiten für asynchrone Verarbeitung",
-        "technology" : "RabbitMQ"
-      }, {
-        "id" : "44",
-        "tags" : "Element,Container,Database",
-        "name" : "Konfiguration",
-        "description" : "Speichert Schnittstellenkonfigurationen (Verarbeitungsregeln, Konvertierungsschemata)",
-        "technology" : "PostgreSQL"
-      }, {
-        "id" : "42",
-        "tags" : "Element,Container",
-        "name" : "IAM",
-        "description" : "Single-Sign On mittels OAuth2 + JWT",
-        "technology" : "Java, Keycloak"
-      }, {
-        "id" : "9",
-        "tags" : "Element,Container,Web Browser",
-        "name" : "Single-Page-Webanwendung",
-        "description" : "Webapplikation Dokumentationsumgebung",
-        "relationships" : [ {
-          "id" : "48",
-          "tags" : "Relationship",
-          "sourceId" : "9",
-          "destinationId" : "10",
-          "description" : "Ruft API auf",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "technology" : "TypeScript, React"
-      }, {
-        "id" : "41",
-        "tags" : "Element,Container,Message Queue",
-        "name" : "Job Queue",
-        "description" : "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung",
-        "technology" : "RabbitMQ"
-      }, {
-        "id" : "43",
-        "tags" : "Element,Container,Database",
-        "name" : "Datenbank",
-        "description" : "Datenhaltung für Dokumentationseinheiten",
-        "technology" : "PostgreSQL"
-      }, {
         "id" : "25",
         "tags" : "Element,Container",
         "name" : "Importer",
         "description" : "Import von Fremddaten und Übersetzung in Dokumentationseinheiten (Anti-Corruption Layer)",
         "relationships" : [ {
-          "id" : "105",
-          "tags" : "Relationship",
-          "sourceId" : "25",
-          "destinationId" : "44",
-          "description" : "Liest von"
-        }, {
-          "id" : "99",
-          "tags" : "Relationship",
-          "sourceId" : "25",
-          "destinationId" : "6",
-          "description" : "Liest von",
-          "technology" : "FTPS"
-        }, {
           "id" : "108",
           "tags" : "Relationship",
           "sourceId" : "25",
@@ -478,12 +145,25 @@
           "description" : "Schreibt nach",
           "technology" : "AMQP"
         }, {
+          "id" : "105",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "44",
+          "description" : "Liest von"
+        }, {
           "id" : "96",
           "tags" : "Relationship",
           "sourceId" : "25",
           "destinationId" : "5",
           "description" : "Liest von",
           "technology" : "IMAP"
+        }, {
+          "id" : "99",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "6",
+          "description" : "Liest von",
+          "technology" : "FTPS"
         }, {
           "id" : "84",
           "tags" : "Relationship",
@@ -494,14 +174,115 @@
         } ],
         "technology" : "Java, Spring MVC",
         "components" : [ {
-          "id" : "39",
+          "id" : "30",
           "tags" : "Element,Component",
-          "name" : "Verarbeitungsregelwerke Repository",
-          "description" : "Stellt Verarbeitungsregelwerke aus Konfigurationsdatenbank bereit",
+          "name" : "Webclient",
+          "description" : "Generischer HTTP-Client",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "33",
+          "tags" : "Element,Component",
+          "name" : "Dokeinheit-Publisher",
+          "description" : "Schreibt vereinheitlichte Dokeinheiten-Daten in Queue",
           "relationships" : [ {
-            "id" : "106",
+            "id" : "107",
             "tags" : "Relationship",
-            "sourceId" : "39",
+            "sourceId" : "33",
+            "destinationId" : "40",
+            "description" : "Schreibt nach",
+            "technology" : "AMQP"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "28",
+          "tags" : "Element,Component",
+          "name" : "Webcrawler Komponente",
+          "description" : "Extrahiert Daten von Webseiten",
+          "relationships" : [ {
+            "id" : "101",
+            "tags" : "Relationship",
+            "sourceId" : "28",
+            "destinationId" : "30",
+            "description" : "Verwendet"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "26",
+          "tags" : "Element,Component",
+          "name" : "E-mail Komponente",
+          "description" : "Liest Emails aus Funktionspostfach",
+          "relationships" : [ {
+            "id" : "95",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "5",
+            "description" : "Liest von",
+            "technology" : "IMAP"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "36",
+          "tags" : "Element,Component",
+          "name" : "Scheduler",
+          "description" : "Erzeugt periodisch Jobs",
+          "relationships" : [ {
+            "id" : "94",
+            "tags" : "Relationship",
+            "sourceId" : "36",
+            "destinationId" : "41",
+            "description" : "Schreibt nach"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component",
+          "name" : "FTP Komponente",
+          "description" : "Lädt Daten von FTP Speicherort",
+          "relationships" : [ {
+            "id" : "98",
+            "tags" : "Relationship",
+            "sourceId" : "27",
+            "destinationId" : "6",
+            "description" : "Liest von",
+            "technology" : "FTPS"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "34",
+          "tags" : "Element,Component",
+          "name" : "Job-Subscriber",
+          "description" : "Empfängt Importaufträge von Queue",
+          "relationships" : [ {
+            "id" : "85",
+            "tags" : "Relationship",
+            "sourceId" : "34",
+            "destinationId" : "35",
+            "description" : "Verwendet"
+          }, {
+            "id" : "83",
+            "tags" : "Relationship",
+            "sourceId" : "34",
+            "destinationId" : "41",
+            "description" : "Liest von",
+            "technology" : "AMQP"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "38",
+          "tags" : "Element,Component",
+          "name" : "Konvertierungsschemata Repository",
+          "description" : "Stellt Konvertierungsschemata aus Konfigurationsdatenbank bereit",
+          "relationships" : [ {
+            "id" : "104",
+            "tags" : "Relationship",
+            "sourceId" : "38",
             "destinationId" : "44",
             "description" : "Liest von"
           } ],
@@ -512,6 +293,27 @@
           "tags" : "Element,Component",
           "name" : "SPARQL Client",
           "description" : "Generischer SPARQL-Client",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "37",
+          "tags" : "Element,Component",
+          "name" : "Dokumentenkonverter",
+          "description" : "Konvertiert eingehende Datensätze in Dokumentationseinheiten",
+          "relationships" : [ {
+            "id" : "109",
+            "tags" : "Relationship",
+            "sourceId" : "37",
+            "destinationId" : "33",
+            "description" : "Verwendet"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "32",
+          "tags" : "Element,Component",
+          "name" : "RSS Komponente",
+          "description" : "Empfängt Aktualisierungen von RSS-Diensten zur weiteren Verarbeitung",
           "technology" : "Spring Bean",
           "size" : 0
         }, {
@@ -535,17 +337,16 @@
           "technology" : "Package",
           "size" : 0
         }, {
-          "id" : "27",
+          "id" : "39",
           "tags" : "Element,Component",
-          "name" : "FTP Komponente",
-          "description" : "Lädt Daten von FTP Speicherort",
+          "name" : "Verarbeitungsregelwerke Repository",
+          "description" : "Stellt Verarbeitungsregelwerke aus Konfigurationsdatenbank bereit",
           "relationships" : [ {
-            "id" : "98",
+            "id" : "106",
             "tags" : "Relationship",
-            "sourceId" : "27",
-            "destinationId" : "6",
-            "description" : "Liest von",
-            "technology" : "FTPS"
+            "sourceId" : "39",
+            "destinationId" : "44",
+            "description" : "Liest von"
           } ],
           "technology" : "Spring Bean",
           "size" : 0
@@ -561,28 +362,22 @@
             "destinationId" : "27",
             "description" : "Verwendet"
           }, {
-            "id" : "88",
-            "tags" : "Relationship",
-            "sourceId" : "35",
-            "destinationId" : "28",
-            "description" : "Verwendet"
-          }, {
-            "id" : "91",
-            "tags" : "Relationship",
-            "sourceId" : "35",
-            "destinationId" : "37",
-            "description" : "Verwendet"
-          }, {
             "id" : "92",
             "tags" : "Relationship",
             "sourceId" : "35",
             "destinationId" : "38",
             "description" : "Verwendet"
           }, {
-            "id" : "86",
+            "id" : "93",
             "tags" : "Relationship",
             "sourceId" : "35",
-            "destinationId" : "26",
+            "destinationId" : "39",
+            "description" : "Verwendet"
+          }, {
+            "id" : "88",
+            "tags" : "Relationship",
+            "sourceId" : "35",
+            "destinationId" : "28",
             "description" : "Verwendet"
           }, {
             "id" : "90",
@@ -591,154 +386,359 @@
             "destinationId" : "32",
             "description" : "Verwendet"
           }, {
+            "id" : "91",
+            "tags" : "Relationship",
+            "sourceId" : "35",
+            "destinationId" : "37",
+            "description" : "Verwendet"
+          }, {
+            "id" : "86",
+            "tags" : "Relationship",
+            "sourceId" : "35",
+            "destinationId" : "26",
+            "description" : "Verwendet"
+          }, {
             "id" : "89",
             "tags" : "Relationship",
             "sourceId" : "35",
             "destinationId" : "29",
             "description" : "Verwendet"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "44",
+        "tags" : "Element,Container,Database",
+        "name" : "Konfiguration",
+        "description" : "Speichert Schnittstellenkonfigurationen (Verarbeitungsregeln, Konvertierungsschemata)",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "40",
+        "tags" : "Element,Container,Message Queue",
+        "name" : "Dokeinheiten Queue",
+        "description" : "Vorhaltung von eingehenden Dokumentationseinheiten für asynchrone Verarbeitung",
+        "technology" : "RabbitMQ"
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "Single-Page-Webanwendung",
+        "description" : "Webapplikation Dokumentationsumgebung",
+        "relationships" : [ {
+          "id" : "48",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "10",
+          "description" : "Ruft API auf",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "TypeScript, React"
+      }, {
+        "id" : "42",
+        "tags" : "Element,Container",
+        "name" : "IAM",
+        "description" : "Single-Sign On mittels OAuth2 + JWT",
+        "technology" : "Java, Keycloak"
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "name" : "Backend/API",
+        "description" : "Stellt Funktionalität via JSON/XML/HTTPS API bereit.",
+        "relationships" : [ {
+          "id" : "61",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "40",
+          "description" : "Liest von",
+          "technology" : "AMQP"
+        }, {
+          "id" : "67",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "7",
+          "description" : "Stellt Daten bereit für"
+        }, {
+          "id" : "51",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "2",
+          "description" : "Stellt Daten bereit für"
+        }, {
+          "id" : "50",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "41",
+          "description" : "Schreibt nach",
+          "technology" : "AMQP"
+        }, {
+          "id" : "49",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "9",
+          "description" : "Liefert an Browser des Nutzers aus",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "58",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "43",
+          "description" : "Liest von und schreibt nach",
+          "technology" : "JDBC"
+        }, {
+          "id" : "53",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "4",
+          "description" : "Stellt Daten bereit für"
+        } ],
+        "technology" : "Java, Spring MVC",
+        "components" : [ {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "name" : "XML Renderer",
+          "description" : "Wandelt Dokeinheit in XML (DES) Repräsentation um",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "name" : "Exporter Komponente",
+          "description" : "Bewerkstelligt Datenexport gemäss Schnittstellenkonfiguration (Filter)",
+          "relationships" : [ {
+            "id" : "78",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "18",
+            "description" : "Verwendet"
           }, {
-            "id" : "93",
+            "id" : "77",
             "tags" : "Relationship",
-            "sourceId" : "35",
-            "destinationId" : "39",
+            "sourceId" : "17",
+            "destinationId" : "13",
+            "description" : "Verwendet"
+          }, {
+            "id" : "79",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "24",
+            "description" : "Verwendet"
+          }, {
+            "id" : "76",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "12",
             "description" : "Verwendet"
           } ],
           "technology" : "Spring Bean",
           "size" : 0
         }, {
-          "id" : "26",
+          "id" : "24",
           "tags" : "Element,Component",
-          "name" : "E-mail Komponente",
-          "description" : "Liest Emails aus Funktionspostfach",
+          "name" : "Protokoll-Komponente",
+          "description" : "Erstellt und speichert Protokolle für Datenexport",
           "relationships" : [ {
-            "id" : "95",
+            "id" : "80",
             "tags" : "Relationship",
-            "sourceId" : "26",
-            "destinationId" : "5",
-            "description" : "Liest von",
-            "technology" : "IMAP"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "33",
-          "tags" : "Element,Component",
-          "name" : "Dokeinheit-Publisher",
-          "description" : "Schreibt vereinheitlichte Dokeinheiten-Daten in Queue",
-          "relationships" : [ {
-            "id" : "107",
-            "tags" : "Relationship",
-            "sourceId" : "33",
-            "destinationId" : "40",
-            "description" : "Schreibt nach",
-            "technology" : "AMQP"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "32",
-          "tags" : "Element,Component",
-          "name" : "RSS Komponente",
-          "description" : "Empfängt Aktualisierungen von RSS-Diensten zur weiteren Verarbeitung",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "30",
-          "tags" : "Element,Component",
-          "name" : "Webclient",
-          "description" : "Generischer HTTP-Client",
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "38",
-          "tags" : "Element,Component",
-          "name" : "Konvertierungsschemata Repository",
-          "description" : "Stellt Konvertierungsschemata aus Konfigurationsdatenbank bereit",
-          "relationships" : [ {
-            "id" : "104",
-            "tags" : "Relationship",
-            "sourceId" : "38",
-            "destinationId" : "44",
-            "description" : "Liest von"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "28",
-          "tags" : "Element,Component",
-          "name" : "Webcrawler Komponente",
-          "description" : "Extrahiert Daten von Webseiten",
-          "relationships" : [ {
-            "id" : "101",
-            "tags" : "Relationship",
-            "sourceId" : "28",
-            "destinationId" : "30",
-            "description" : "Verwendet"
-          } ],
-          "technology" : "Spring Bean",
-          "size" : 0
-        }, {
-          "id" : "36",
-          "tags" : "Element,Component",
-          "name" : "Scheduler",
-          "description" : "Erzeugt periodisch Jobs",
-          "relationships" : [ {
-            "id" : "94",
-            "tags" : "Relationship",
-            "sourceId" : "36",
-            "destinationId" : "41",
+            "sourceId" : "24",
+            "destinationId" : "43",
             "description" : "Schreibt nach"
           } ],
           "technology" : "Spring Bean",
           "size" : 0
         }, {
-          "id" : "37",
+          "id" : "23",
           "tags" : "Element,Component",
-          "name" : "Dokumentenkonverter",
-          "description" : "Konvertiert eingehende Datensätze in Dokumentationseinheiten",
+          "name" : "Word Renderer",
+          "description" : "Wandelt Dokeinheit in Word Repräsentation um",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "name" : "PDF Renderer",
+          "description" : "Wandelt Dokeinheit in PDF Repräsentation um",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "name" : "Downloads Controller",
+          "description" : "Stellt Daten als Download bereit",
           "relationships" : [ {
-            "id" : "109",
+            "id" : "71",
             "tags" : "Relationship",
-            "sourceId" : "37",
-            "destinationId" : "33",
+            "sourceId" : "15",
+            "destinationId" : "20",
+            "description" : "Verwendet"
+          }, {
+            "id" : "74",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "23",
+            "description" : "Verwendet"
+          }, {
+            "id" : "75",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "16",
+            "description" : "Verwendet"
+          }, {
+            "id" : "72",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "21",
+            "description" : "Verwendet"
+          }, {
+            "id" : "73",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "22",
+            "description" : "Verwendet"
+          }, {
+            "id" : "69",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "17",
+            "description" : "Verwendet"
+          }, {
+            "id" : "70",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "19",
             "description" : "Verwendet"
           } ],
           "technology" : "Spring Bean",
           "size" : 0
         }, {
-          "id" : "34",
+          "id" : "20",
           "tags" : "Element,Component",
-          "name" : "Job-Subscriber",
-          "description" : "Empfängt Importaufträge von Queue",
+          "name" : "CSV Renderer",
+          "description" : "Wandelt Dokeinheit in CSV Repräsentation um",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "Schnittstellenkonfiguration",
+          "description" : "Hält Exportprofile aus Konfiguration vor",
           "relationships" : [ {
-            "id" : "83",
+            "id" : "59",
             "tags" : "Relationship",
-            "sourceId" : "34",
-            "destinationId" : "41",
+            "sourceId" : "13",
+            "destinationId" : "43",
+            "description" : "Liest von",
+            "technology" : "JDBC"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "name" : "Security Komponente",
+          "description" : "Authentifizierung aller Anfragen mittels JWT",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "API Controller",
+          "description" : "Stellt Schnittstellen als Webservice bereit",
+          "relationships" : [ {
+            "id" : "63",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "17",
+            "description" : "Verwendet"
+          }, {
+            "id" : "66",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "7",
+            "description" : "Stellt Daten bereit für"
+          }, {
+            "id" : "64",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "19",
+            "description" : "Verwendet"
+          }, {
+            "id" : "65",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "16",
+            "description" : "Verwendet"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "name" : "DSL Interpreter",
+          "description" : "Übersetzt Abfrage-DSL in tatsächliche Abfrage",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component",
+          "name" : "LegalDocML Renderer",
+          "description" : "Wandelt Dokeinheit in LegalDocML.de Repräsentation um",
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "name" : "Dokeinheiten Repository",
+          "description" : "Hält Dokeinheiten aus Datenhaltung vor",
+          "relationships" : [ {
+            "id" : "57",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "43",
+            "description" : "Liest von und schreibt nach",
+            "technology" : "JDBC"
+          } ],
+          "technology" : "Spring Bean",
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "name" : "Dokeinheiten-Subscriber",
+          "description" : "Empfängt Dokeinheiten von Queue",
+          "relationships" : [ {
+            "id" : "60",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "40",
             "description" : "Liest von",
             "technology" : "AMQP"
           }, {
-            "id" : "85",
+            "id" : "62",
             "tags" : "Relationship",
-            "sourceId" : "34",
-            "destinationId" : "35",
+            "sourceId" : "11",
+            "destinationId" : "12",
             "description" : "Verwendet"
           } ],
           "technology" : "Spring Bean",
           "size" : 0
         } ]
+      }, {
+        "id" : "41",
+        "tags" : "Element,Container,Message Queue",
+        "name" : "Job Queue",
+        "description" : "Vorhaltung von Datenübernahmejobs für asynchrone Verarbeitung",
+        "technology" : "RabbitMQ"
+      }, {
+        "id" : "43",
+        "tags" : "Element,Container,Database",
+        "name" : "Datenbank",
+        "description" : "Datenhaltung für Dokumentationseinheiten",
+        "technology" : "PostgreSQL"
       } ]
     }, {
       "id" : "2",
       "tags" : "Element,Software System,Existing System",
       "name" : "RIP",
       "description" : "Datenverwerter",
-      "location" : "Unspecified"
-    }, {
-      "id" : "7",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "Datenverwerter",
-      "description" : "Allgemeine Schnittstelle (DES)",
       "location" : "Unspecified"
     } ]
   },
@@ -1056,7 +1056,7 @@
         "y" : 2490
       }, {
         "id" : "12",
-        "x" : 3234,
+        "x" : 3245,
         "y" : 2110
       }, {
         "id" : "23",
@@ -1068,12 +1068,12 @@
         "y" : 2110
       }, {
         "id" : "13",
-        "x" : 2734,
+        "x" : 2739,
         "y" : 2110
       }, {
         "id" : "14",
         "x" : 3170,
-        "y" : 785
+        "y" : 805
       }, {
         "id" : "15",
         "x" : 1732,
@@ -1081,7 +1081,7 @@
       }, {
         "id" : "16",
         "x" : 2451,
-        "y" : 790
+        "y" : 805
       }, {
         "id" : "17",
         "x" : 2740,
@@ -1112,7 +1112,7 @@
         "y" : 1495
       }, {
         "id" : "43",
-        "x" : 2734,
+        "x" : 2739,
         "y" : 3070
       }, {
         "id" : "21",
