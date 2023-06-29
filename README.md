@@ -1,5 +1,11 @@
 # VeRIKA architecture diagrams
 
+## Archived!
+
+⚠️ The content here is outdated. Structurizr diagrams are now part of the [ris-backend-service repo](https://github.com/digitalservicebund/ris-backend-service/tree/main/doc/structurizr)
+
+## Original general info
+
 Diagrams as code using [Structurizr](https://structurizr.com)
 
 ## Prerequisites
